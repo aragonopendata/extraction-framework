@@ -17,6 +17,7 @@ object DisambiguationExtractorConfig
          "eu" -> " (argipena)",
          "ext" -> " (desambiguáncia)",
          "fr" -> " (homonymie)",
+         "ga" -> " (idirdhealáin)",
          "gl" -> " (homónimos)",
          "he" -> " (פירושונים)",
          "hu" -> " (egyértelműsítő lap)",
@@ -27,6 +28,7 @@ object DisambiguationExtractorConfig
          "pl" -> " (ujednoznacznienie)",
          "pt" -> " (desambiguação)",
          "ru" -> " (значения)",
+         "sk" -> " (Rozlišovacia stránka)",
          "sr" -> " (Višeznačna odrednica)"  //TODO make it a Set() for multiple “sr” -> " (вишезначна одредница)"
     )
 }
