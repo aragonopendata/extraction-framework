@@ -4,6 +4,8 @@
 
 Documentation is available from the [official DBpedia website](http://dbpedia.org) and the [DBpedia Github wiki](https://github.com/dbpedia/extraction-framework/wiki).
 
+Specific documentation on how to run this process on the AragoDBpedia case are available [here](https://github.com/aragonopendata/extraction-framework/blob/master/aragodbpedia/README.md)
+
 
 ## License
 
