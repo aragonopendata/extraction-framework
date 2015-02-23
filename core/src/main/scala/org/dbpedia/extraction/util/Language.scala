@@ -59,7 +59,8 @@ object Language extends (String => Language)
   implicit val wikiCodeOrdering = Ordering.by[Language, String](_.wikiCode)
   
   val map: Map[String, Language] = locally {
-    
+
+/*
     def language(code : String, iso: String): Language = {
       new Language(
         code,
@@ -72,9 +73,23 @@ object Language extends (String => Language)
         "http://"+code+".wikipedia.org/w/api.php"
       )
     }
-    
+*/
+    def language(code : String, iso: String): Language = {
+        new Language(
+            code,
+            iso,
+            code+".dbpedia.org",
+            "http://opendata.aragon.es",
+            new DBpediaNamespace("http://opendata.aragon.es/recurso/territorio/Municipio/"),
+            new DBpediaNamespace("http://"+code+".dbpedia.org/property/"),
+            "http://"+code+".wikipedia.org",
+            "http://"+code+".wikipedia.org/w/api.php"
+        )
+    }
+
+
     val languages = new HashMap[String,Language]
-    
+
     // All two-letter codes from http://noc.wikimedia.org/conf/langlist as of 2012-04-15,
     // minus the redirected codes cz,dk,jp,sh (they are in the nonIsoCodes map below)
     // TODO: Automate this process. Or rather, download this list dynamically. Don't generate code.

@@ -63,6 +63,8 @@ object RdfNamespace {
   val BIBO = ns("bibo", "http://purl.org/ontology/bibo/", false)
   val WIKIDATA = ns("wikidata", "http://wikidata.dbpedia.org/resource/", false)
   val MAPPINGS = ns("mappings", "http://mappings.dbpedia.org/wiki/", false)
+  val QB = ns("qb","http://purl.org/linked-data/cube#")
+  val ARAGOPEDIAONTO = ns("aragopediaonto","http://opendata.aragon.es/def/Aragopedia#")
   val D0 = ns("d0", "http://www.ontologydesignpatterns.org/ont/d0.owl#", false)
   val DUL = ns("dul", "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#", false)
 
