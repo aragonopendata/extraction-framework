@@ -1,0 +1,8 @@
+PREFIX aragodef: <http://opendata.aragon.es/def/Aragopedia#>
+PREFIX dbpedia: <http://dbpedia.org/ontology/>
+CONSTRUCT {
+ ?y aragodef:contieneMunicipio ?x .
+} WHERE {
+ ?x a dbpedia:Municipality.
+ ?x aragodef:enComunidadAutonoma ?y .
+}

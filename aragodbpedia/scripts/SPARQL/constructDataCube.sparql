@@ -1,0 +1,3 @@
+PREFIX aragodef: <http://opendata.aragon.es/def/Aragopedia#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+CONSTRUCT {?x qb:dataSet ?y} WHERE {?y arago:isDataSetOf ?x}

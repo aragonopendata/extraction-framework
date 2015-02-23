@@ -1,0 +1,10 @@
+PREFIX aragodef: <http://opendata.aragon.es/def/Aragopedia#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+CONSTRUCT {
+ ?z aragodef:refArea ?y .
+ ?y aragodef:hasObservation ?z
+} WHERE {
+ ?x aragodef:isDataSetOf ?z.
+ ?z a qb:Observation .
+ ?x aragodef:refArea ?y .
+}

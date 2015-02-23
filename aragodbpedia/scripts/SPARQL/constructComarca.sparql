@@ -1,0 +1,18 @@
+PREFIX aragodef: <http://opendata.aragon.es/def/Aragopedia#>
+CONSTRUCT {
+ ?x aragodef:enComarca ?y .
+ ?y aragodef:contieneMunicipio ?x .
+} WHERE {
+ ?x aragodef:enComarcaTemporal ?z.
+ ?y a aragodef:Comarca ; rdfs:label ?labelComarca.
+ FILTER (regex(?labelComarca,?z, "i") || 
+        (?labelComarca="Andorra-Sierra de Arcos"@es && ?z="ANDORRA/SIERRA DE ARCOS"@es) ||
+        (?labelComarca="Bajo Aragón"@es && ?z="BAJO ARAGON"@es) ||
+        (?labelComarca="Bajo Martín"@es && ?z="BAJO MARTIN"@es) ||
+        (?labelComarca="Gúdar-Javalambre"@es && ?z="GUDAR-JAVALAMBRE"@es) ||
+        (?labelComarca="Alto Gállego"@es && ?z="ALTO GALLEGO"@es) ||
+        (?labelComarca="Sierra de Albarracín"@es && ?z="SIERRA DE ALBARRACIN"@es) ||
+        (?labelComarca="Valdejalón"@es && ?z="VALDEJALON"@es) ||
+        (?labelComarca="Bajo Aragón-Caspe/ Baix Aragó-Casp"@es && ?z="BAJO ARAGON-CASPE/BAIX ARAGO-CASP"@es)
+ ).
+}
