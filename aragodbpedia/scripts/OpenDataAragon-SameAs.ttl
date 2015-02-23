@@ -1,0 +1,1542 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://opendata.aragon.es/recurso/territorio/ComunidadAutonoma/Aragón> owl:sameAs <http://es.dbpedia.org/resource/Aragón> .
+
+<http://opendata.aragon.es/recurso/territorio/Provincia/Huesca> owl:sameAs <http://es.dbpedia.org/resource/Provincia_de_Huesca> .
+
+<http://opendata.aragon.es/recurso/territorio/Provincia/Zaragoza> owl:sameAs <http://es.dbpedia.org/resource/Provincia_de_Zaragoza> .
+
+<http://opendata.aragon.es/recurso/territorio/Provincia/Teruel> owl:sameAs <http://es.dbpedia.org/resource/Provincia_de_Teruel> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Aranda> owl:sameAs <http://es.dbpedia.org/resource/Aranda> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Andorra-Sierra_de_Arcos> owl:sameAs <http://es.dbpedia.org/resource/Andorra-Sierra_de_Arcos> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Bajo_Aragón> owl:sameAs <http://es.dbpedia.org/resource/Bajo_Aragón> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Bajo_Cinca/Baix_Cinca> owl:sameAs <http://es.dbpedia.org/resource/Bajo_Cinca> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Campo_de_Belchite> owl:sameAs <http://es.dbpedia.org/resource/Campo_de_Belchite> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Campo_de_Borja> owl:sameAs <http://es.dbpedia.org/resource/Campo_de_Borja> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Campo_de_Daroca> owl:sameAs <http://es.dbpedia.org/resource/Campo_de_Daroca> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Cinca_Medio> owl:sameAs <http://es.dbpedia.org/resource/Cinca_Medio> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Cinco_Villas> owl:sameAs <http://es.dbpedia.org/resource/Cinco_Villas> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Comunidad_de_Calatayud> owl:sameAs <http://es.dbpedia.org/resource/Comunidad_de_Calatayud> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Bajo_Martín> owl:sameAs <http://es.dbpedia.org/resource/Bajo_Martín> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Campo_de_Cariñena> owl:sameAs <http://es.dbpedia.org/resource/Campo_de_Cariñena> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Cuencas_Mineras> owl:sameAs <http://es.dbpedia.org/resource/Cuencas_Mineras> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/D.C._Zaragoza> owl:sameAs <http://es.dbpedia.org/resource/Comarca_de_Zaragoza> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Comunidad_de_Teruel> owl:sameAs <http://es.dbpedia.org/resource/Comunidad_de_Teruel> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Gúdar-Javalambre> owl:sameAs <http://es.dbpedia.org/resource/Gúdar-Javalambre> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Alto_Gállego> owl:sameAs <http://es.dbpedia.org/resource/Alto_Gállego> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/La_Litera/La_Llitera> owl:sameAs <http://es.dbpedia.org/resource/La_Llitera> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Jiloca> owl:sameAs <http://es.dbpedia.org/resource/Jiloca> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Hoya_de_Huesca/Plana_de_Uesca> owl:sameAs <http://es.dbpedia.org/resource/Plana_de_Uesca> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/La_Ribagorza> owl:sameAs <http://es.dbpedia.org/resource/La_Ribagorza> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Ribera_Baja_del_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Ribera_Baja_del_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/La_Jacetania> owl:sameAs <http://es.dbpedia.org/resource/La_Jacetania> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Maestrazgo> owl:sameAs <http://es.dbpedia.org/resource/Maestrazgo> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Los_Monegros> owl:sameAs <http://es.dbpedia.org/resource/Los_Monegros> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Sierra_de_Albarracín> owl:sameAs <http://es.dbpedia.org/resource/Sierra_de_Albarracín> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Sobrarbe> owl:sameAs <http://es.dbpedia.org/resource/Sobrarbe> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Valdejalón> owl:sameAs <http://es.dbpedia.org/resource/Valdejalón> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Tarazona_y_el_Moncayo> owl:sameAs <http://es.dbpedia.org/resource/Tarazona_y_el_Moncayo> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Ribera_Alta_del_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Ribera_Alta_del_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Matarraña/Matarranya> owl:sameAs <http://es.dbpedia.org/resource/Matarraña> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Somontano_de_Barbastro> owl:sameAs <http://es.dbpedia.org/resource/Somontano_de_Barbastro> .
+
+<http://opendata.aragon.es/recurso/territorio/Comarca/Bajo_Aragón-Caspe/Baix_Aragó-Casp> owl:sameAs <http://es.dbpedia.org/resource/Bajo_Aragón-Caspe> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aísa> owl:sameAs <http://es.dbpedia.org/resource/Aísa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Abanto> owl:sameAs <http://es.dbpedia.org/resource/Abanto> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Abiego> owl:sameAs <http://es.dbpedia.org/resource/Abiego> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Abizanda> owl:sameAs <http://es.dbpedia.org/resource/Abizanda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Albalatillo> owl:sameAs <http://es.dbpedia.org/resource/Albalatillo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Adahuesca> owl:sameAs <http://es.dbpedia.org/resource/Adahuesca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Agüero> owl:sameAs <http://es.dbpedia.org/resource/Agüero> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Albelda> owl:sameAs <http://es.dbpedia.org/resource/Albelda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcampell> owl:sameAs <http://es.dbpedia.org/resource/Alcampell> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcubierre> owl:sameAs <http://es.dbpedia.org/resource/Alcubierre> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alfántega> owl:sameAs <http://es.dbpedia.org/resource/Alfántega> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alerre> owl:sameAs <http://es.dbpedia.org/resource/Alerre> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Almudévar> owl:sameAs <http://es.dbpedia.org/resource/Almudévar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Almuniente> owl:sameAs <http://es.dbpedia.org/resource/Almuniente> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alquézar> owl:sameAs <http://es.dbpedia.org/resource/Alquézar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Altorricón> owl:sameAs <http://es.dbpedia.org/resource/Altorricón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Angüés> owl:sameAs <http://es.dbpedia.org/resource/Angüés> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ansó> owl:sameAs <http://es.dbpedia.org/resource/Ansó> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Antillón> owl:sameAs <http://es.dbpedia.org/resource/Antillón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Arén> owl:sameAs <http://es.dbpedia.org/resource/Arén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Argavieso> owl:sameAs <http://es.dbpedia.org/resource/Argavieso> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Arguis> owl:sameAs <http://es.dbpedia.org/resource/Arguis> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Azanuy-Alins> owl:sameAs <http://es.dbpedia.org/resource/Azanuy-Alins> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ayerbe> owl:sameAs <http://es.dbpedia.org/resource/Ayerbe> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Azara> owl:sameAs <http://es.dbpedia.org/resource/Azara> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Baells> owl:sameAs <http://es.dbpedia.org/resource/Baells> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Azlor> owl:sameAs <http://es.dbpedia.org/resource/Azlor> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bailo> owl:sameAs <http://es.dbpedia.org/resource/Bailo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Baldellou> owl:sameAs <http://es.dbpedia.org/resource/Baldellou> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ballobar> owl:sameAs <http://es.dbpedia.org/resource/Ballobar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Banastás> owl:sameAs <http://es.dbpedia.org/resource/Banastás> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Barbastro> owl:sameAs <http://es.dbpedia.org/resource/Barbastro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Barbués> owl:sameAs <http://es.dbpedia.org/resource/Barbués> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Barbuñales> owl:sameAs <http://es.dbpedia.org/resource/Barbuñales> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bárcabo> owl:sameAs <http://es.dbpedia.org/resource/Bárcabo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Benabarre> owl:sameAs <http://es.dbpedia.org/resource/Benabarre> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Benasque> owl:sameAs <http://es.dbpedia.org/resource/Benasque> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Berbegal> owl:sameAs <http://es.dbpedia.org/resource/Berbegal> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bielsa> owl:sameAs <http://es.dbpedia.org/resource/Bielsa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bierge> owl:sameAs <http://es.dbpedia.org/resource/Bierge> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Biescas> owl:sameAs <http://es.dbpedia.org/resource/Biescas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Binaced> owl:sameAs <http://es.dbpedia.org/resource/Binaced> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Binéfar> owl:sameAs <http://es.dbpedia.org/resource/Binéfar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bisaurri> owl:sameAs <http://es.dbpedia.org/resource/Bisaurri> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Biscarrués> owl:sameAs <http://es.dbpedia.org/resource/Biscarrués> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bonansa> owl:sameAs <http://es.dbpedia.org/resource/Bonansa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Boltaña> owl:sameAs <http://es.dbpedia.org/resource/Boltaña> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Camporrells> owl:sameAs <http://es.dbpedia.org/resource/Camporrells> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Borau> owl:sameAs <http://es.dbpedia.org/resource/Borau> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Broto> owl:sameAs <http://es.dbpedia.org/resource/Broto> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Caldearenas> owl:sameAs <http://es.dbpedia.org/resource/Caldearenas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Campo> owl:sameAs <http://es.dbpedia.org/resource/Campo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Candasnos> owl:sameAs <http://es.dbpedia.org/resource/Candasnos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Canfranc> owl:sameAs <http://es.dbpedia.org/resource/Canfranc> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Capdesaso> owl:sameAs <http://es.dbpedia.org/resource/Capdesaso> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Capella> owl:sameAs <http://es.dbpedia.org/resource/Capella> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castelflorite> owl:sameAs <http://es.dbpedia.org/resource/Castelflorite> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castigaleu> owl:sameAs <http://es.dbpedia.org/resource/Castigaleu> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castillazuelo> owl:sameAs <http://es.dbpedia.org/resource/Castillazuelo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castillonroy> owl:sameAs <http://es.dbpedia.org/resource/Castillonroy> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Chalamera> owl:sameAs <http://es.dbpedia.org/resource/Chalamera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Colungo> owl:sameAs <http://es.dbpedia.org/resource/Colungo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Chimillas> owl:sameAs <http://es.dbpedia.org/resource/Chimillas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Estada> owl:sameAs <http://es.dbpedia.org/resource/Estada> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Esplús> owl:sameAs <http://es.dbpedia.org/resource/Esplús> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fago> owl:sameAs <http://es.dbpedia.org/resource/Fago> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Estadilla> owl:sameAs <http://es.dbpedia.org/resource/Estadilla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Chía> owl:sameAs <http://es.dbpedia.org/resource/Chía> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fanlo> owl:sameAs <http://es.dbpedia.org/resource/Fanlo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fiscal> owl:sameAs <http://es.dbpedia.org/resource/Fiscal> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fonz> owl:sameAs <http://es.dbpedia.org/resource/Fonz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Gistaín> owl:sameAs <http://es.dbpedia.org/resource/Gistaín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fraga> owl:sameAs <http://es.dbpedia.org/resource/Fraga> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Grañén> owl:sameAs <http://es.dbpedia.org/resource/Grañén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Graus> owl:sameAs <http://es.dbpedia.org/resource/Graus> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Huerto> owl:sameAs <http://es.dbpedia.org/resource/Huerto> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ibieca> owl:sameAs <http://es.dbpedia.org/resource/Ibieca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Igriés> owl:sameAs <http://es.dbpedia.org/resource/Igriés> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Huesca> owl:sameAs <http://es.dbpedia.org/resource/Huesca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ilche> owl:sameAs <http://es.dbpedia.org/resource/Ilche> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Isábena> owl:sameAs <http://es.dbpedia.org/resource/Isábena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Jaca> owl:sameAs <http://es.dbpedia.org/resource/Jaca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Labuerda> owl:sameAs <http://es.dbpedia.org/resource/Labuerda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Jasa> owl:sameAs <http://es.dbpedia.org/resource/Jasa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Laluenga> owl:sameAs <http://es.dbpedia.org/resource/Laluenga> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lalueza> owl:sameAs <http://es.dbpedia.org/resource/Lalueza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lanaja> owl:sameAs <http://es.dbpedia.org/resource/Lanaja> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Laperdiguera> owl:sameAs <http://es.dbpedia.org/resource/Laperdiguera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lascellas-Ponzano> owl:sameAs <http://es.dbpedia.org/resource/Lascellas-Ponzano> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Loarre> owl:sameAs <http://es.dbpedia.org/resource/Loarre> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Laspuña> owl:sameAs <http://es.dbpedia.org/resource/Laspuña> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lascuarre> owl:sameAs <http://es.dbpedia.org/resource/Lascuarre> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Laspaúles> owl:sameAs <http://es.dbpedia.org/resource/Laspaúles> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Loporzano> owl:sameAs <http://es.dbpedia.org/resource/Loporzano> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Loscorrales> owl:sameAs <http://es.dbpedia.org/resource/Loscorrales> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Montanuy> owl:sameAs <http://es.dbpedia.org/resource/Montanuy> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monflorite-Lascasas> owl:sameAs <http://es.dbpedia.org/resource/Monflorite-Lascasas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monzón> owl:sameAs <http://es.dbpedia.org/resource/Monzón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Naval> owl:sameAs <http://es.dbpedia.org/resource/Naval> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Novales> owl:sameAs <http://es.dbpedia.org/resource/Novales> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Nueno> owl:sameAs <http://es.dbpedia.org/resource/Nueno> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Olvena> owl:sameAs <http://es.dbpedia.org/resource/Olvena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ontiñena> owl:sameAs <http://es.dbpedia.org/resource/Ontiñena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Panticosa> owl:sameAs <http://es.dbpedia.org/resource/Panticosa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Palo> owl:sameAs <http://es.dbpedia.org/resource/Palo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Peñalba> owl:sameAs <http://es.dbpedia.org/resource/Peñalba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Perarrúa> owl:sameAs <http://es.dbpedia.org/resource/Perarrúa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pertusa> owl:sameAs <http://es.dbpedia.org/resource/Pertusa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Peraltilla> owl:sameAs <http://es.dbpedia.org/resource/Peraltilla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Piracés> owl:sameAs <http://es.dbpedia.org/resource/Piracés> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Poleñino> owl:sameAs <http://es.dbpedia.org/resource/Poleñino> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Plan> owl:sameAs <http://es.dbpedia.org/resource/Plan> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Puértolas> owl:sameAs <http://es.dbpedia.org/resource/Puértolas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Quicena> owl:sameAs <http://es.dbpedia.org/resource/Quicena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Robres> owl:sameAs <http://es.dbpedia.org/resource/Robres> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sabiñánigo> owl:sameAs <http://es.dbpedia.org/resource/Sabiñánigo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sahún> owl:sameAs <http://es.dbpedia.org/resource/Sahún> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Salillas> owl:sameAs <http://es.dbpedia.org/resource/Salillas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sangarrén> owl:sameAs <http://es.dbpedia.org/resource/Sangarrén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sariñena> owl:sameAs <http://es.dbpedia.org/resource/Sariñena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Secastilla> owl:sameAs <http://es.dbpedia.org/resource/Secastilla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Seira> owl:sameAs <http://es.dbpedia.org/resource/Seira> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sena> owl:sameAs <http://es.dbpedia.org/resource/Sena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sesué> owl:sameAs <http://es.dbpedia.org/resource/Sesué> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Siétamo> owl:sameAs <http://es.dbpedia.org/resource/Siétamo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sesa> owl:sameAs <http://es.dbpedia.org/resource/Sesa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sopeira> owl:sameAs <http://es.dbpedia.org/resource/Sopeira> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tella-Sin> owl:sameAs <http://es.dbpedia.org/resource/Tella-Sin> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tierz> owl:sameAs <http://es.dbpedia.org/resource/Tierz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tardienta> owl:sameAs <http://es.dbpedia.org/resource/Tardienta> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tolva> owl:sameAs <http://es.dbpedia.org/resource/Tolva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torla-Ordesa> owl:sameAs <http://es.dbpedia.org/resource/Torla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tramaced> owl:sameAs <http://es.dbpedia.org/resource/Tramaced> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valfarta> owl:sameAs <http://es.dbpedia.org/resource/Valfarta> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Beranuy> owl:sameAs <http://es.dbpedia.org/resource/Beranuy> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villanova> owl:sameAs <http://es.dbpedia.org/resource/Villanova> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Vicién> owl:sameAs <http://es.dbpedia.org/resource/Vicién> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villanúa> owl:sameAs <http://es.dbpedia.org/resource/Villanúa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Yésero> owl:sameAs <http://es.dbpedia.org/resource/Yésero> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Zaidín> owl:sameAs <http://es.dbpedia.org/resource/Zaidín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Abejuela> owl:sameAs <http://es.dbpedia.org/resource/Abejuela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aínsa-Sobrarbe> owl:sameAs <http://es.dbpedia.org/resource/Aínsa-Sobrarbe> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ababuj> owl:sameAs <http://es.dbpedia.org/resource/Ababuj> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Vencillón> owl:sameAs <http://es.dbpedia.org/resource/Vencillón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aguatón> owl:sameAs <http://es.dbpedia.org/resource/Aguatón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lupiñén-Ortilla> owl:sameAs <http://es.dbpedia.org/resource/Lupiñén-Ortilla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aguaviva> owl:sameAs <http://es.dbpedia.org/resource/Aguaviva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alacón> owl:sameAs <http://es.dbpedia.org/resource/Alacón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alba> owl:sameAs <http://es.dbpedia.org/resource/Alba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Albentosa> owl:sameAs <http://es.dbpedia.org/resource/Albentosa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Albarracín> owl:sameAs <http://es.dbpedia.org/resource/Albarracín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcorisa> owl:sameAs <http://es.dbpedia.org/resource/Alcorisa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcaine> owl:sameAs <http://es.dbpedia.org/resource/Alcaine> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alfambra> owl:sameAs <http://es.dbpedia.org/resource/Alfambra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcañiz> owl:sameAs <http://es.dbpedia.org/resource/Alcañiz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Almohaja> owl:sameAs <http://es.dbpedia.org/resource/Almohaja> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aliaga> owl:sameAs <http://es.dbpedia.org/resource/Aliaga> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alobras> owl:sameAs <http://es.dbpedia.org/resource/Alobras> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alpeñés> owl:sameAs <http://es.dbpedia.org/resource/Alpeñés> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Allepuz> owl:sameAs <http://es.dbpedia.org/resource/Allepuz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alloza> owl:sameAs <http://es.dbpedia.org/resource/Alloza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Allueva> owl:sameAs <http://es.dbpedia.org/resource/Allueva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Andorra> owl:sameAs <http://es.dbpedia.org/resource/Andorra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Anadón> owl:sameAs <http://es.dbpedia.org/resource/Anadón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Argente> owl:sameAs <http://es.dbpedia.org/resource/Argente> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Azaila> owl:sameAs <http://es.dbpedia.org/resource/Azaila> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bádenas> owl:sameAs <http://es.dbpedia.org/resource/Bádenas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Báguena> owl:sameAs <http://es.dbpedia.org/resource/Báguena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bañón> owl:sameAs <http://es.dbpedia.org/resource/Bañón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bea> owl:sameAs <http://es.dbpedia.org/resource/Bea> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ariño> owl:sameAs <http://es.dbpedia.org/resource/Ariño> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Beceite> owl:sameAs <http://es.dbpedia.org/resource/Beceite> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Barrachina> owl:sameAs <http://es.dbpedia.org/resource/Barrachina> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bello> owl:sameAs <http://es.dbpedia.org/resource/Bello> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Berge> owl:sameAs <http://es.dbpedia.org/resource/Berge> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Blesa> owl:sameAs <http://es.dbpedia.org/resource/Blesa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Blancas> owl:sameAs <http://es.dbpedia.org/resource/Blancas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bezas> owl:sameAs <http://es.dbpedia.org/resource/Bezas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bordón> owl:sameAs <http://es.dbpedia.org/resource/Bordón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bronchales> owl:sameAs <http://es.dbpedia.org/resource/Bronchales> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Burbáguena> owl:sameAs <http://es.dbpedia.org/resource/Burbáguena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bueña> owl:sameAs <http://es.dbpedia.org/resource/Bueña> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Calamocha> owl:sameAs <http://es.dbpedia.org/resource/Calamocha> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Calaceite> owl:sameAs <http://es.dbpedia.org/resource/Calaceite> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Calomarde> owl:sameAs <http://es.dbpedia.org/resource/Calomarde> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Calanda> owl:sameAs <http://es.dbpedia.org/resource/Calanda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Camañas> owl:sameAs <http://es.dbpedia.org/resource/Camañas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Caminreal> owl:sameAs <http://es.dbpedia.org/resource/Caminreal> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Camarillas> owl:sameAs <http://es.dbpedia.org/resource/Camarillas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cantavieja> owl:sameAs <http://es.dbpedia.org/resource/Cantavieja> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castelnou> owl:sameAs <http://es.dbpedia.org/resource/Castelnou> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castelserás> owl:sameAs <http://es.dbpedia.org/resource/Castelserás> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castellote> owl:sameAs <http://es.dbpedia.org/resource/Castellote> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Celadas> owl:sameAs <http://es.dbpedia.org/resource/Celadas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cedrillas> owl:sameAs <http://es.dbpedia.org/resource/Cedrillas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cella> owl:sameAs <http://es.dbpedia.org/resource/Cella> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cosa> owl:sameAs <http://es.dbpedia.org/resource/Cosa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Corbalán> owl:sameAs <http://es.dbpedia.org/resource/Corbalán> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Crivillén> owl:sameAs <http://es.dbpedia.org/resource/Crivillén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cucalón> owl:sameAs <http://es.dbpedia.org/resource/Cucalón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cretas> owl:sameAs <http://es.dbpedia.org/resource/Cretas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Escucha> owl:sameAs <http://es.dbpedia.org/resource/Escucha> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ejulve> owl:sameAs <http://es.dbpedia.org/resource/Ejulve> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Escorihuela> owl:sameAs <http://es.dbpedia.org/resource/Escorihuela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Estercuel> owl:sameAs <http://es.dbpedia.org/resource/Estercuel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cubla> owl:sameAs <http://es.dbpedia.org/resource/Cubla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fonfría> owl:sameAs <http://es.dbpedia.org/resource/Fonfría> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fórnoles> owl:sameAs <http://es.dbpedia.org/resource/Fórnoles> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fortanete> owl:sameAs <http://es.dbpedia.org/resource/Fortanete> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Foz-Calanda> owl:sameAs <http://es.dbpedia.org/resource/Foz-Calanda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fuenferrada> owl:sameAs <http://es.dbpedia.org/resource/Fuenferrada> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fuentespalda> owl:sameAs <http://es.dbpedia.org/resource/Fuentespalda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Gargallo> owl:sameAs <http://es.dbpedia.org/resource/Gargallo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Galve> owl:sameAs <http://es.dbpedia.org/resource/Galve> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Griegos> owl:sameAs <http://es.dbpedia.org/resource/Griegos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Guadalaviar> owl:sameAs <http://es.dbpedia.org/resource/Guadalaviar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Gúdar> owl:sameAs <http://es.dbpedia.org/resource/Gúdar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Híjar> owl:sameAs <http://es.dbpedia.org/resource/Híjar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Jabaloyas> owl:sameAs <http://es.dbpedia.org/resource/Jabaloyas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Jorcas> owl:sameAs <http://es.dbpedia.org/resource/Jorcas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Josa> owl:sameAs <http://es.dbpedia.org/resource/Josa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Jarque> owl:sameAs <http://es.dbpedia.org/resource/Jarque> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lagueruela> owl:sameAs <http://es.dbpedia.org/resource/Lagueruela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Jatiel> owl:sameAs <http://es.dbpedia.org/resource/Jatiel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lanzuela> owl:sameAs <http://es.dbpedia.org/resource/Lanzuela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Libros> owl:sameAs <http://es.dbpedia.org/resource/Libros> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lidón> owl:sameAs <http://es.dbpedia.org/resource/Lidón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Loscos> owl:sameAs <http://es.dbpedia.org/resource/Loscos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lledó> owl:sameAs <http://es.dbpedia.org/resource/Lledó> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Maicas> owl:sameAs <http://es.dbpedia.org/resource/Maicas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Manzanera> owl:sameAs <http://es.dbpedia.org/resource/Manzanera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mirambel> owl:sameAs <http://es.dbpedia.org/resource/Mirambel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mazaleón> owl:sameAs <http://es.dbpedia.org/resource/Mazaleón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Molinos> owl:sameAs <http://es.dbpedia.org/resource/Molinos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Montalbán> owl:sameAs <http://es.dbpedia.org/resource/Montalbán> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monroyo> owl:sameAs <http://es.dbpedia.org/resource/Monroyo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Moscardón> owl:sameAs <http://es.dbpedia.org/resource/Moscardón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mosqueruela> owl:sameAs <http://es.dbpedia.org/resource/Mosqueruela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Muniesa> owl:sameAs <http://es.dbpedia.org/resource/Muniesa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Nogueras> owl:sameAs <http://es.dbpedia.org/resource/Nogueras> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monterde> owl:sameAs <http://es.dbpedia.org/resource/Monterde> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Obón> owl:sameAs <http://es.dbpedia.org/resource/Obón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Nogueruelas> owl:sameAs <http://es.dbpedia.org/resource/Nogueruelas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Odón> owl:sameAs <http://es.dbpedia.org/resource/Odón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Olba> owl:sameAs <http://es.dbpedia.org/resource/Olba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Oliete> owl:sameAs <http://es.dbpedia.org/resource/Oliete> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Orrios> owl:sameAs <http://es.dbpedia.org/resource/Orrios> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pancrudo> owl:sameAs <http://es.dbpedia.org/resource/Pancrudo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Peracense> owl:sameAs <http://es.dbpedia.org/resource/Peracense> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Peralejos> owl:sameAs <http://es.dbpedia.org/resource/Peralejos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pitarque> owl:sameAs <http://es.dbpedia.org/resource/Pitarque> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Plou> owl:sameAs <http://es.dbpedia.org/resource/Plou> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pozondón> owl:sameAs <http://es.dbpedia.org/resource/Pozondón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ráfales> owl:sameAs <http://es.dbpedia.org/resource/Ráfales> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Puertomingalvo> owl:sameAs <http://es.dbpedia.org/resource/Puertomingalvo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Riodeva> owl:sameAs <http://es.dbpedia.org/resource/Riodeva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Rillo> owl:sameAs <http://es.dbpedia.org/resource/Rillo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ródenas> owl:sameAs <http://es.dbpedia.org/resource/Ródenas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Royuela> owl:sameAs <http://es.dbpedia.org/resource/Royuela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Rubiales> owl:sameAs <http://es.dbpedia.org/resource/Rubiales> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Salcedillo> owl:sameAs <http://es.dbpedia.org/resource/Salcedillo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Saldón> owl:sameAs <http://es.dbpedia.org/resource/Saldón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sarrión> owl:sameAs <http://es.dbpedia.org/resource/Sarrión> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Seno> owl:sameAs <http://es.dbpedia.org/resource/Seno> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Singra> owl:sameAs <http://es.dbpedia.org/resource/Singra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Terriente> owl:sameAs <http://es.dbpedia.org/resource/Terriente> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Teruel> owl:sameAs <http://es.dbpedia.org/resource/Teruel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tormón> owl:sameAs <http://es.dbpedia.org/resource/Tormón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tornos> owl:sameAs <http://es.dbpedia.org/resource/Tornos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrelacárcel> owl:sameAs <http://es.dbpedia.org/resource/Torrelacárcel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrevelilla> owl:sameAs <http://es.dbpedia.org/resource/Torrevelilla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrijas> owl:sameAs <http://es.dbpedia.org/resource/Torrijas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tramacastiel> owl:sameAs <http://es.dbpedia.org/resource/Tramacastiel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tronchón> owl:sameAs <http://es.dbpedia.org/resource/Tronchón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tramacastilla> owl:sameAs <http://es.dbpedia.org/resource/Tramacastilla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Utrillas> owl:sameAs <http://es.dbpedia.org/resource/Utrillas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valacloche> owl:sameAs <http://es.dbpedia.org/resource/Valacloche> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valbona> owl:sameAs <http://es.dbpedia.org/resource/Valbona> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valdealgorfa> owl:sameAs <http://es.dbpedia.org/resource/Valdealgorfa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valdecuenca> owl:sameAs <http://es.dbpedia.org/resource/Valdecuenca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valdeltormo> owl:sameAs <http://es.dbpedia.org/resource/Valdeltormo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valdelinares> owl:sameAs <http://es.dbpedia.org/resource/Valdelinares> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valjunquera> owl:sameAs <http://es.dbpedia.org/resource/Valjunquera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valderrobres> owl:sameAs <http://es.dbpedia.org/resource/Valderrobres> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villarluengo> owl:sameAs <http://es.dbpedia.org/resource/Villarluengo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villarquemado> owl:sameAs <http://es.dbpedia.org/resource/Villarquemado> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villel> owl:sameAs <http://es.dbpedia.org/resource/Villel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Vinaceite> owl:sameAs <http://es.dbpedia.org/resource/Vinaceite> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Visiedo> owl:sameAs <http://es.dbpedia.org/resource/Visiedo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villastar> owl:sameAs <http://es.dbpedia.org/resource/Villastar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Acered> owl:sameAs <http://es.dbpedia.org/resource/Acered> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Agón> owl:sameAs <http://es.dbpedia.org/resource/Agón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aguilón> owl:sameAs <http://es.dbpedia.org/resource/Aguilón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aguarón> owl:sameAs <http://es.dbpedia.org/resource/Aguarón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aladrén> owl:sameAs <http://es.dbpedia.org/resource/Aladrén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ainzón> owl:sameAs <http://es.dbpedia.org/resource/Ainzón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alarba> owl:sameAs <http://es.dbpedia.org/resource/Alarba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alagón> owl:sameAs <http://es.dbpedia.org/resource/Alagón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Albeta> owl:sameAs <http://es.dbpedia.org/resource/Albeta> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alborge> owl:sameAs <http://es.dbpedia.org/resource/Alborge> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alfajarín> owl:sameAs <http://es.dbpedia.org/resource/Alfajarín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alfamén> owl:sameAs <http://es.dbpedia.org/resource/Alfamén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Almochuel> owl:sameAs <http://es.dbpedia.org/resource/Almochuel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alforque> owl:sameAs <http://es.dbpedia.org/resource/Alforque> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ambel> owl:sameAs <http://es.dbpedia.org/resource/Ambel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alpartir> owl:sameAs <http://es.dbpedia.org/resource/Alpartir> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Anento> owl:sameAs <http://es.dbpedia.org/resource/Anento> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aniñón> owl:sameAs <http://es.dbpedia.org/resource/Aniñón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Arándiga> owl:sameAs <http://es.dbpedia.org/resource/Arándiga> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ardisa> owl:sameAs <http://es.dbpedia.org/resource/Ardisa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ariza> owl:sameAs <http://es.dbpedia.org/resource/Ariza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Asín> owl:sameAs <http://es.dbpedia.org/resource/Asín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Artieda> owl:sameAs <http://es.dbpedia.org/resource/Artieda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Atea> owl:sameAs <http://es.dbpedia.org/resource/Atea> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ateca> owl:sameAs <http://es.dbpedia.org/resource/Ateca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Badules> owl:sameAs <http://es.dbpedia.org/resource/Badules> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bagüés> owl:sameAs <http://es.dbpedia.org/resource/Bagüés> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Azuara> owl:sameAs <http://es.dbpedia.org/resource/Azuara> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Balconchán> owl:sameAs <http://es.dbpedia.org/resource/Balconchán> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bárboles> owl:sameAs <http://es.dbpedia.org/resource/Bárboles> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bardallur> owl:sameAs <http://es.dbpedia.org/resource/Bardallur> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Belchite> owl:sameAs <http://es.dbpedia.org/resource/Belchite> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Berdejo> owl:sameAs <http://es.dbpedia.org/resource/Berdejo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Berrueco> owl:sameAs <http://es.dbpedia.org/resource/Berrueco> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bijuesca> owl:sameAs <http://es.dbpedia.org/resource/Bijuesca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Biota> owl:sameAs <http://es.dbpedia.org/resource/Biota> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bisimbre> owl:sameAs <http://es.dbpedia.org/resource/Bisimbre> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Boquiñeni> owl:sameAs <http://es.dbpedia.org/resource/Boquiñeni> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bordalba> owl:sameAs <http://es.dbpedia.org/resource/Bordalba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Borja> owl:sameAs <http://es.dbpedia.org/resource/Borja> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Botorrita> owl:sameAs <http://es.dbpedia.org/resource/Botorrita> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bubierca> owl:sameAs <http://es.dbpedia.org/resource/Bubierca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bujaraloz> owl:sameAs <http://es.dbpedia.org/resource/Bujaraloz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bulbuente> owl:sameAs <http://es.dbpedia.org/resource/Bulbuente> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Bureta> owl:sameAs <http://es.dbpedia.org/resource/Bureta> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cadrete> owl:sameAs <http://es.dbpedia.org/resource/Cadrete> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cabolafuente> owl:sameAs <http://es.dbpedia.org/resource/Cabolafuente> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Calatayud> owl:sameAs <http://es.dbpedia.org/resource/Calatayud> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Calcena> owl:sameAs <http://es.dbpedia.org/resource/Calcena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Calatorao> owl:sameAs <http://es.dbpedia.org/resource/Calatorao> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Caspe> owl:sameAs <http://es.dbpedia.org/resource/Caspe> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castiliscar> owl:sameAs <http://es.dbpedia.org/resource/Castiliscar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Carenas> owl:sameAs <http://es.dbpedia.org/resource/Carenas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cariñena> owl:sameAs <http://es.dbpedia.org/resource/Cariñena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Calmarza> owl:sameAs <http://es.dbpedia.org/resource/Calmarza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cerveruela> owl:sameAs <http://es.dbpedia.org/resource/Cerveruela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cetina> owl:sameAs <http://es.dbpedia.org/resource/Cetina> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cimballa> owl:sameAs <http://es.dbpedia.org/resource/Cimballa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Codo> owl:sameAs <http://es.dbpedia.org/resource/Codo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Codos> owl:sameAs <http://es.dbpedia.org/resource/Codos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Contamina> owl:sameAs <http://es.dbpedia.org/resource/Contamina> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cosuenda> owl:sameAs <http://es.dbpedia.org/resource/Cosuenda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cubel> owl:sameAs <http://es.dbpedia.org/resource/Cubel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Chodes> owl:sameAs <http://es.dbpedia.org/resource/Chodes> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Daroca> owl:sameAs <http://es.dbpedia.org/resource/Daroca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Chiprana> owl:sameAs <http://es.dbpedia.org/resource/Chiprana> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Encinacorba> owl:sameAs <http://es.dbpedia.org/resource/Encinacorba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Erla> owl:sameAs <http://es.dbpedia.org/resource/Erla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Escatrón> owl:sameAs <http://es.dbpedia.org/resource/Escatrón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fabara> owl:sameAs <http://es.dbpedia.org/resource/Fabara> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Farlete> owl:sameAs <http://es.dbpedia.org/resource/Farlete> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Épila> owl:sameAs <http://es.dbpedia.org/resource/Épila> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fayón> owl:sameAs <http://es.dbpedia.org/resource/Fayón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Figueruelas> owl:sameAs <http://es.dbpedia.org/resource/Figueruelas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fombuena> owl:sameAs <http://es.dbpedia.org/resource/Fombuena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fréscano> owl:sameAs <http://es.dbpedia.org/resource/Fréscano> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fuendejalón> owl:sameAs <http://es.dbpedia.org/resource/Fuendejalón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fuendetodos> owl:sameAs <http://es.dbpedia.org/resource/Fuendetodos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Gallocanta> owl:sameAs <http://es.dbpedia.org/resource/Gallocanta> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Godojos> owl:sameAs <http://es.dbpedia.org/resource/Godojos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Gelsa> owl:sameAs <http://es.dbpedia.org/resource/Gelsa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Gotor> owl:sameAs <http://es.dbpedia.org/resource/Gotor> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Grisel> owl:sameAs <http://es.dbpedia.org/resource/Grisel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Grisén> owl:sameAs <http://es.dbpedia.org/resource/Grisén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Gallur> owl:sameAs <http://es.dbpedia.org/resource/Gallur> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ibdes> owl:sameAs <http://es.dbpedia.org/resource/Ibdes> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Illueca> owl:sameAs <http://es.dbpedia.org/resource/Illueca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Isuerre> owl:sameAs <http://es.dbpedia.org/resource/Isuerre> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Jaulín> owl:sameAs <http://es.dbpedia.org/resource/Jaulín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Jaraba> owl:sameAs <http://es.dbpedia.org/resource/Jaraba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lagata> owl:sameAs <http://es.dbpedia.org/resource/Lagata> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Layana> owl:sameAs <http://es.dbpedia.org/resource/Layana> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Leciñena> owl:sameAs <http://es.dbpedia.org/resource/Leciñena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lechón> owl:sameAs <http://es.dbpedia.org/resource/Lechón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lituénigo> owl:sameAs <http://es.dbpedia.org/resource/Lituénigo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Letux> owl:sameAs <http://es.dbpedia.org/resource/Letux> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lécera> owl:sameAs <http://es.dbpedia.org/resource/Lécera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Longás> owl:sameAs <http://es.dbpedia.org/resource/Longás> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Luesma> owl:sameAs <http://es.dbpedia.org/resource/Luesma> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Luesia> owl:sameAs <http://es.dbpedia.org/resource/Luesia> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lumpiaque> owl:sameAs <http://es.dbpedia.org/resource/Lumpiaque> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Longares> owl:sameAs <http://es.dbpedia.org/resource/Longares> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Luna> owl:sameAs <http://es.dbpedia.org/resource/Luna> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Litago> owl:sameAs <http://es.dbpedia.org/resource/Litago> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Maella> owl:sameAs <http://es.dbpedia.org/resource/Maella> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Luceni> owl:sameAs <http://es.dbpedia.org/resource/Luceni> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Magallón> owl:sameAs <http://es.dbpedia.org/resource/Magallón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mainar> owl:sameAs <http://es.dbpedia.org/resource/Mainar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Maleján> owl:sameAs <http://es.dbpedia.org/resource/Maleján> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Malanquilla> owl:sameAs <http://es.dbpedia.org/resource/Malanquilla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Malón> owl:sameAs <http://es.dbpedia.org/resource/Malón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Maluenda> owl:sameAs <http://es.dbpedia.org/resource/Maluenda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mallén> owl:sameAs <http://es.dbpedia.org/resource/Mallén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Manchones> owl:sameAs <http://es.dbpedia.org/resource/Manchones> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mara> owl:sameAs <http://es.dbpedia.org/resource/Mara> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mezalocha> owl:sameAs <http://es.dbpedia.org/resource/Mezalocha> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mequinenza> owl:sameAs <http://es.dbpedia.org/resource/Mequinenza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mianos> owl:sameAs <http://es.dbpedia.org/resource/Mianos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monegrillo> owl:sameAs <http://es.dbpedia.org/resource/Monegrillo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Moneva> owl:sameAs <http://es.dbpedia.org/resource/Moneva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Montón> owl:sameAs <http://es.dbpedia.org/resource/Montón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Morés> owl:sameAs <http://es.dbpedia.org/resource/Morés> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mozota> owl:sameAs <http://es.dbpedia.org/resource/Mozota> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Moyuela> owl:sameAs <http://es.dbpedia.org/resource/Moyuela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Muel> owl:sameAs <http://es.dbpedia.org/resource/Muel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Moros> owl:sameAs <http://es.dbpedia.org/resource/Moros> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Murero> owl:sameAs <http://es.dbpedia.org/resource/Murero> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Munébrega> owl:sameAs <http://es.dbpedia.org/resource/Munébrega> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Navardún> owl:sameAs <http://es.dbpedia.org/resource/Navardún> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Nigüella> owl:sameAs <http://es.dbpedia.org/resource/Nigüella> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Nombrevilla> owl:sameAs <http://es.dbpedia.org/resource/Nombrevilla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Nonaspe> owl:sameAs <http://es.dbpedia.org/resource/Nonaspe> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Novillas> owl:sameAs <http://es.dbpedia.org/resource/Novillas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Novallas> owl:sameAs <http://es.dbpedia.org/resource/Novallas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Nuévalos> owl:sameAs <http://es.dbpedia.org/resource/Nuévalos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Olvés> owl:sameAs <http://es.dbpedia.org/resource/Olvés> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Orcajo> owl:sameAs <http://es.dbpedia.org/resource/Orcajo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Orera> owl:sameAs <http://es.dbpedia.org/resource/Orera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Orés> owl:sameAs <http://es.dbpedia.org/resource/Orés> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Oseja> owl:sameAs <http://es.dbpedia.org/resource/Oseja> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Paniza> owl:sameAs <http://es.dbpedia.org/resource/Paniza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pastriz> owl:sameAs <http://es.dbpedia.org/resource/Pastriz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pedrola> owl:sameAs <http://es.dbpedia.org/resource/Pedrola> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Piedratajada> owl:sameAs <http://es.dbpedia.org/resource/Piedratajada> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Perdiguera> owl:sameAs <http://es.dbpedia.org/resource/Perdiguera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pinseque> owl:sameAs <http://es.dbpedia.org/resource/Pinseque> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Plenas> owl:sameAs <http://es.dbpedia.org/resource/Plenas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pleitas> owl:sameAs <http://es.dbpedia.org/resource/Pleitas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pomer> owl:sameAs <http://es.dbpedia.org/resource/Pomer> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Purujosa> owl:sameAs <http://es.dbpedia.org/resource/Purujosa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Quinto> owl:sameAs <http://es.dbpedia.org/resource/Quinto> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Puendeluna> owl:sameAs <http://es.dbpedia.org/resource/Puendeluna> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Remolinos> owl:sameAs <http://es.dbpedia.org/resource/Remolinos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Retascón> owl:sameAs <http://es.dbpedia.org/resource/Retascón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ricla> owl:sameAs <http://es.dbpedia.org/resource/Ricla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Romanos> owl:sameAs <http://es.dbpedia.org/resource/Romanos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ruesca> owl:sameAs <http://es.dbpedia.org/resource/Ruesca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Santed> owl:sameAs <http://es.dbpedia.org/resource/Santed> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Saviñán> owl:sameAs <http://es.dbpedia.org/resource/Saviñán> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sádaba> owl:sameAs <http://es.dbpedia.org/resource/Sádaba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sediles> owl:sameAs <http://es.dbpedia.org/resource/Sediles> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sástago> owl:sameAs <http://es.dbpedia.org/resource/Sástago> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sestrica> owl:sameAs <http://es.dbpedia.org/resource/Sestrica> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sisamón> owl:sameAs <http://es.dbpedia.org/resource/Sisamón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sobradiel> owl:sameAs <http://es.dbpedia.org/resource/Sobradiel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sigüés> owl:sameAs <http://es.dbpedia.org/resource/Sigüés> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tabuenca> owl:sameAs <http://es.dbpedia.org/resource/Tabuenca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tarazona> owl:sameAs <http://es.dbpedia.org/resource/Tarazona> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tauste> owl:sameAs <http://es.dbpedia.org/resource/Tauste> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tierga> owl:sameAs <http://es.dbpedia.org/resource/Tierga> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Terrer> owl:sameAs <http://es.dbpedia.org/resource/Terrer> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tobed> owl:sameAs <http://es.dbpedia.org/resource/Tobed> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Talamantes> owl:sameAs <http://es.dbpedia.org/resource/Talamantes> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torralbilla> owl:sameAs <http://es.dbpedia.org/resource/Torralbilla> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrehermosa> owl:sameAs <http://es.dbpedia.org/resource/Torrehermosa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrelapaja> owl:sameAs <http://es.dbpedia.org/resource/Torrelapaja> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrellas> owl:sameAs <http://es.dbpedia.org/resource/Torrellas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tosos> owl:sameAs <http://es.dbpedia.org/resource/Tosos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Trasmoz> owl:sameAs <http://es.dbpedia.org/resource/Trasmoz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Uncastillo> owl:sameAs <http://es.dbpedia.org/resource/Uncastillo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Used> owl:sameAs <http://es.dbpedia.org/resource/Used> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Urriés> owl:sameAs <http://es.dbpedia.org/resource/Urriés> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Utebo> owl:sameAs <http://es.dbpedia.org/resource/Utebo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Trasobares> owl:sameAs <http://es.dbpedia.org/resource/Trasobares> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valdehorna> owl:sameAs <http://es.dbpedia.org/resource/Valdehorna> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valmadrid> owl:sameAs <http://es.dbpedia.org/resource/Valmadrid> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valpalmas> owl:sameAs <http://es.dbpedia.org/resource/Valpalmas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valtorres> owl:sameAs <http://es.dbpedia.org/resource/Valtorres> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Vierlas> owl:sameAs <http://es.dbpedia.org/resource/Vierlas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villadoz> owl:sameAs <http://es.dbpedia.org/resource/Villadoz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villafeliche> owl:sameAs <http://es.dbpedia.org/resource/Villafeliche> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Vistabella> owl:sameAs <http://es.dbpedia.org/resource/Vistabella> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villalengua> owl:sameAs <http://es.dbpedia.org/resource/Villalengua> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Zaragoza> owl:sameAs <http://es.dbpedia.org/resource/Zaragoza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Marracos> owl:sameAs <http://es.dbpedia.org/resource/Marracos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Biel> owl:sameAs <http://es.dbpedia.org/resource/Biel> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Zuera> owl:sameAs <http://es.dbpedia.org/resource/Zuera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alberite_de_San_Juan> owl:sameAs <http://es.dbpedia.org/resource/Alberite_de_San_Juan> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcalá_de_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Alcalá_de_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcalá_de_Moncayo> owl:sameAs <http://es.dbpedia.org/resource/Alcalá_de_Moncayo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alconchel_de_Ariza> owl:sameAs <http://es.dbpedia.org/resource/Alconchel_de_Ariza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aguilar_del_Alfambra> owl:sameAs <http://es.dbpedia.org/resource/Aguilar_del_Alfambra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Albalate_del_Arzobispo> owl:sameAs <http://es.dbpedia.org/resource/Albalate_del_Arzobispo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aldehuela_de_Liestos> owl:sameAs <http://es.dbpedia.org/resource/Aldehuela_de_Liestos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alhama_de_Aragón> owl:sameAs <http://es.dbpedia.org/resource/Alhama_de_Aragón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcalá_de_la_Selva> owl:sameAs <http://es.dbpedia.org/resource/Alcalá_de_la_Selva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Almolda_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Almolda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Almonacid_de_la_Sierra> owl:sameAs <http://es.dbpedia.org/resource/Almonacid_de_la_Sierra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Almonacid_de_la_Cuba> owl:sameAs <http://es.dbpedia.org/resource/Almonacid_de_la_Cuba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Albalate_de_Cinca> owl:sameAs <http://es.dbpedia.org/resource/Albalate_de_Cinca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Almunia_de_Doña_Godina_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Almunia_de_Doña_Godina> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Añón_de_Moncayo> owl:sameAs <http://es.dbpedia.org/resource/Añón_de_Moncayo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Albero_Alto> owl:sameAs <http://es.dbpedia.org/resource/Albero_Alto> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Albero_Bajo> owl:sameAs <http://es.dbpedia.org/resource/Albero_Bajo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alberuela_de_Tubo> owl:sameAs <http://es.dbpedia.org/resource/Alberuela_de_Tubo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcalá_de_Gurrea> owl:sameAs <http://es.dbpedia.org/resource/Alcalá_de_Gurrea> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcalá_del_Obispo> owl:sameAs <http://es.dbpedia.org/resource/Alcalá_del_Obispo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Arcos_de_las_Salinas> owl:sameAs <http://es.dbpedia.org/resource/Arcos_de_las_Salinas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Alcolea_de_Cinca> owl:sameAs <http://es.dbpedia.org/resource/Alcolea_de_Cinca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Arens_de_Lledó> owl:sameAs <http://es.dbpedia.org/resource/Arens_de_Lledó> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Almunia_de_San_Juan> owl:sameAs <http://es.dbpedia.org/resource/Almunia_de_San_Juan> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Belmonte_de_San_José> owl:sameAs <http://es.dbpedia.org/resource/Belmonte_de_San_José> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Belmonte_de_Gracián> owl:sameAs <http://es.dbpedia.org/resource/Belmonte_de_Gracián> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cabra_de_Mora> owl:sameAs <http://es.dbpedia.org/resource/Cabra_de_Mora> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aragüés_del_Puerto> owl:sameAs <http://es.dbpedia.org/resource/Aragüés_del_Puerto> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Burgo_de_Ebro_(El)> owl:sameAs <http://es.dbpedia.org/resource/El_Burgo_de_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Camarena_de_la_Sierra> owl:sameAs <http://es.dbpedia.org/resource/Camarena_de_la_Sierra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Brea_de_Aragón> owl:sameAs <http://es.dbpedia.org/resource/Brea_de_Aragón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cañada_de_Benatanduz> owl:sameAs <http://es.dbpedia.org/resource/Cañada_de_Benatanduz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cabañas_de_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Cabañas_de_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cañada_de_Verich_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Cañada_de_Verich> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Buste_(El)> owl:sameAs <http://es.dbpedia.org/resource/El_Buste> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cañada_Vellida> owl:sameAs <http://es.dbpedia.org/resource/Cañada_Vellida> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Belver_de_Cinca> owl:sameAs <http://es.dbpedia.org/resource/Belver_de_Cinca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cañizar_del_Olivar> owl:sameAs <http://es.dbpedia.org/resource/Cañizar_del_Olivar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cascante_del_Río> owl:sameAs <http://es.dbpedia.org/resource/Cascante_del_Río> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castel_de_Cabra> owl:sameAs <http://es.dbpedia.org/resource/Castel_de_Cabra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castejón_de_Tornos> owl:sameAs <http://es.dbpedia.org/resource/Castejón_de_Tornos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Campillo_de_Aragón> owl:sameAs <http://es.dbpedia.org/resource/Campillo_de_Aragón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castellar_(El)> owl:sameAs <http://es.dbpedia.org/resource/El_Castellar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castejón_de_Alarba> owl:sameAs <http://es.dbpedia.org/resource/Castejón_de_Alarba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castejón_de_las_Armas> owl:sameAs <http://es.dbpedia.org/resource/Castejón_de_las_Armas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Blecua_y_Torres> owl:sameAs <http://es.dbpedia.org/resource/Blecua_y_Torres> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cerollera_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Cerollera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cervera_de_la_Cañada> owl:sameAs <http://es.dbpedia.org/resource/Cervera_de_la_Cañada> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Codoñera_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Codoñera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castejón_de_Valdejasa> owl:sameAs <http://es.dbpedia.org/resource/Castejón_de_Valdejasa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Clarés_de_Ribota> owl:sameAs <http://es.dbpedia.org/resource/Clarés_de_Ribota> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cinco_Olivas> owl:sameAs <http://es.dbpedia.org/resource/Cinco_Olivas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cortes_de_Aragón> owl:sameAs <http://es.dbpedia.org/resource/Cortes_de_Aragón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cuba_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Cuba> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Canal_de_Berdún> owl:sameAs <http://es.dbpedia.org/resource/Canal_de_Berdún> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cuarte_de_Huerva> owl:sameAs <http://es.dbpedia.org/resource/Cuarte_de_Huerva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Casbas_de_Huesca> owl:sameAs <http://es.dbpedia.org/resource/Casbas_de_Huesca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cuervo_(El)> owl:sameAs <http://es.dbpedia.org/resource/El_Cuervo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castejón_del_Puente> owl:sameAs <http://es.dbpedia.org/resource/Castejón_del_Puente> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cuerlas_(Las)> owl:sameAs <http://es.dbpedia.org/resource/Las_Cuerlas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cuevas_de_Almudén> owl:sameAs <http://es.dbpedia.org/resource/Cuevas_de_Almudén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castejón_de_Monegros> owl:sameAs <http://es.dbpedia.org/resource/Castejón_de_Monegros> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Cuevas_Labradas> owl:sameAs <http://es.dbpedia.org/resource/Cuevas_Labradas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castejón_de_Sos> owl:sameAs <http://es.dbpedia.org/resource/Castejón_de_Sos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Castiello_de_Jaca> owl:sameAs <http://es.dbpedia.org/resource/Castiello_de_Jaca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ejea_de_los_Caballeros> owl:sameAs <http://es.dbpedia.org/resource/Ejea_de_los_Caballeros> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ferreruela_de_Huerva> owl:sameAs <http://es.dbpedia.org/resource/Ferreruela_de_Huerva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Formiche_Alto> owl:sameAs <http://es.dbpedia.org/resource/Formiche_Alto> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Embid_de_Ariza> owl:sameAs <http://es.dbpedia.org/resource/Embid_de_Ariza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fresneda_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Fresneda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Frías_de_Albarracín> owl:sameAs <http://es.dbpedia.org/resource/Frías_de_Albarracín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Estopiñán_del_Castillo> owl:sameAs <http://es.dbpedia.org/resource/Estopiñán_del_Castillo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fayos_(Los)> owl:sameAs <http://es.dbpedia.org/resource/Los_Fayos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fuentes_Calientes> owl:sameAs <http://es.dbpedia.org/resource/Fuentes_Calientes> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Frago_(El)> owl:sameAs <http://es.dbpedia.org/resource/El_Frago> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fuentes_Claras> owl:sameAs <http://es.dbpedia.org/resource/Fuentes_Claras> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fuentes_de_Rubielos> owl:sameAs <http://es.dbpedia.org/resource/Fuentes_de_Rubielos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Frasno_(El)> owl:sameAs <http://es.dbpedia.org/resource/El_Frasno> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Foradada_del_Toscar> owl:sameAs <http://es.dbpedia.org/resource/Foradada_del_Toscar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fuentes_de_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Fuentes_de_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fuentes_de_Jiloca> owl:sameAs <http://es.dbpedia.org/resource/Fuentes_de_Jiloca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Fueva_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Fueva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Gea_de_Albarracín> owl:sameAs <http://es.dbpedia.org/resource/Gea_de_Albarracín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ginebrosa_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Ginebrosa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Hinojosa_de_Jarque> owl:sameAs <http://es.dbpedia.org/resource/Hinojosa_de_Jarque> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Grado_(El)> owl:sameAs <http://es.dbpedia.org/resource/El_Grado> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Gurrea_de_Gállego> owl:sameAs <http://es.dbpedia.org/resource/Gurrea_de_Gállego> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Hoz_de_Jaca> owl:sameAs <http://es.dbpedia.org/resource/Hoz_de_Jaca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Huesa_del_Común> owl:sameAs <http://es.dbpedia.org/resource/Huesa_del_Común> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Hoz_de_la_Vieja_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Hoz_de_la_Vieja> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Iglesuela_del_Cid_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Iglesuela_del_Cid> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Herrera_de_los_Navarros> owl:sameAs <http://es.dbpedia.org/resource/Herrera_de_los_Navarros> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Jarque_de_la_Val> owl:sameAs <http://es.dbpedia.org/resource/Jarque_de_la_Val> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Joyosa_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Joyosa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Linares_de_Mora> owl:sameAs <http://es.dbpedia.org/resource/Linares_de_Mora> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Langa_del_Castillo> owl:sameAs <http://es.dbpedia.org/resource/Langa_del_Castillo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Martín_del_Río> owl:sameAs <http://es.dbpedia.org/resource/Martín_del_Río> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mas_de_las_Matas> owl:sameAs <http://es.dbpedia.org/resource/Mas_de_las_Matas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lobera_de_Onsella> owl:sameAs <http://es.dbpedia.org/resource/Lobera_de_Onsella> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mata_de_los_Olmos_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Mata_de_los_Olmos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mezquita_de_Jarque> owl:sameAs <http://es.dbpedia.org/resource/Mezquita_de_Jarque> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monesma_y_Cajigar> owl:sameAs <http://es.dbpedia.org/resource/Monesma_y_Cajigar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Lucena_de_Jalón> owl:sameAs <http://es.dbpedia.org/resource/Lucena_de_Jalón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Miravete_de_la_Sierra> owl:sameAs <http://es.dbpedia.org/resource/Miravete_de_la_Sierra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monforte_de_Moyuela> owl:sameAs <http://es.dbpedia.org/resource/Monforte_de_Moyuela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monreal_del_Campo> owl:sameAs <http://es.dbpedia.org/resource/Monreal_del_Campo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monteagudo_del_Castillo> owl:sameAs <http://es.dbpedia.org/resource/Monteagudo_del_Castillo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monterde_de_Albarracín> owl:sameAs <http://es.dbpedia.org/resource/Monterde_de_Albarracín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mora_de_Rubielos> owl:sameAs <http://es.dbpedia.org/resource/Mora_de_Rubielos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Osso_de_Cinca> owl:sameAs <http://es.dbpedia.org/resource/Osso_de_Cinca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Noguera_de_Albarracín> owl:sameAs <http://es.dbpedia.org/resource/Noguera_de_Albarracín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Peñas_de_Riglos_(Las)> owl:sameAs <http://es.dbpedia.org/resource/Las_Peñas_de_Riglos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Peralta_de_Alcofea> owl:sameAs <http://es.dbpedia.org/resource/Peralta_de_Alcofea> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Peralta_de_Calasanz> owl:sameAs <http://es.dbpedia.org/resource/Peralta_de_Calasanz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/María_de_Huerva> owl:sameAs <http://es.dbpedia.org/resource/María_de_Huerva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mediana_de_Aragón> owl:sameAs <http://es.dbpedia.org/resource/Mediana_de_Aragón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Mesones_de_Isuela> owl:sameAs <http://es.dbpedia.org/resource/Mesones_de_Isuela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Ojos_Negros> owl:sameAs <http://es.dbpedia.org/resource/Ojos_Negros> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Olmos_(Los)> owl:sameAs <http://es.dbpedia.org/resource/Los_Olmos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Miedes_de_Aragón> owl:sameAs <http://es.dbpedia.org/resource/Miedes_de_Aragón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pozán_de_Vero> owl:sameAs <http://es.dbpedia.org/resource/Pozán_de_Vero> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Orihuela_del_Tremedal> owl:sameAs <http://es.dbpedia.org/resource/Orihuela_del_Tremedal> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Puebla_de_Castro_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Puebla_de_Castro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Puente_de_Montañana> owl:sameAs <http://es.dbpedia.org/resource/Puente_de_Montañana> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Palomar_de_Arroyos> owl:sameAs <http://es.dbpedia.org/resource/Palomar_de_Arroyos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Monreal_de_Ariza> owl:sameAs <http://es.dbpedia.org/resource/Monreal_de_Ariza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Peñarroya_de_Tastavins> owl:sameAs <http://es.dbpedia.org/resource/Peñarroya_de_Tastavins> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Parras_de_Castellote_(Las)> owl:sameAs <http://es.dbpedia.org/resource/Las_Parras_de_Castellote> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pueyo_de_Araguás_(El)> owl:sameAs <http://es.dbpedia.org/resource/El_Pueyo_de_Araguás> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pueyo_de_Santa_Cruz> owl:sameAs <http://es.dbpedia.org/resource/Pueyo_de_Santa_Cruz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Morata_de_Jalón> owl:sameAs <http://es.dbpedia.org/resource/Morata_de_Jalón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Morata_de_Jiloca> owl:sameAs <http://es.dbpedia.org/resource/Morata_de_Jiloca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Perales_del_Alfambra> owl:sameAs <http://es.dbpedia.org/resource/Perales_del_Alfambra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pobo_(El)> owl:sameAs <http://es.dbpedia.org/resource/El_Pobo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Salas_Bajas> owl:sameAs <http://es.dbpedia.org/resource/Salas_Bajas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Salas_Altas> owl:sameAs <http://es.dbpedia.org/resource/Salas_Altas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Portellada_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Portellada> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Muela_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Muela> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sallent_de_Gállego> owl:sameAs <http://es.dbpedia.org/resource/Sallent_de_Gállego> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/San_Esteban_de_Litera> owl:sameAs <http://es.dbpedia.org/resource/San_Esteban_de_Litera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pozuel_del_Campo> owl:sameAs <http://es.dbpedia.org/resource/Pozuel_del_Campo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/San_Juan_de_Plan> owl:sameAs <http://es.dbpedia.org/resource/San_Juan_de_Plan> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Puebla_de_Híjar_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Puebla_de_Híjar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Santa_Cilia> owl:sameAs <http://es.dbpedia.org/resource/Santa_Cilia> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Murillo_de_Gállego> owl:sameAs <http://es.dbpedia.org/resource/Murillo_de_Gállego> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Puebla_de_Valverde_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Puebla_de_Valverde> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Santa_Cruz_de_la_Serós> owl:sameAs <http://es.dbpedia.org/resource/Santa_Cruz_de_la_Serós> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Santaliestra_y_San_Quílez> owl:sameAs <http://es.dbpedia.org/resource/Santaliestra_y_San_Quílez> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Rubielos_de_la_Cérida> owl:sameAs <http://es.dbpedia.org/resource/Rubielos_de_la_Cérida> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Nuez_de_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Nuez_de_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Senés_de_Alcubierre> owl:sameAs <http://es.dbpedia.org/resource/Senés_de_Alcubierre> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Rubielos_de_Mora> owl:sameAs <http://es.dbpedia.org/resource/Rubielos_de_Mora> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Samper_de_Calanda> owl:sameAs <http://es.dbpedia.org/resource/Samper_de_Calanda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Tamarite_de_Litera> owl:sameAs <http://es.dbpedia.org/resource/Tamarite_de_Litera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Osera_de_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Osera_de_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/San_Agustín> owl:sameAs <http://es.dbpedia.org/resource/San_Agustín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/San_Martín_del_Río> owl:sameAs <http://es.dbpedia.org/resource/San_Martín_del_Río> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Santa_Cruz_de_Nogueras> owl:sameAs <http://es.dbpedia.org/resource/Santa_Cruz_de_Nogueras> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Paracuellos_de_Jiloca> owl:sameAs <http://es.dbpedia.org/resource/Paracuellos_de_Jiloca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Santa_Eulalia> owl:sameAs <http://es.dbpedia.org/resource/Santa_Eulalia> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Paracuellos_de_la_Ribera> owl:sameAs <http://es.dbpedia.org/resource/Paracuellos_de_la_Ribera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Segura_de_los_Baños> owl:sameAs <http://es.dbpedia.org/resource/Segura_de_los_Baños> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torralba_de_Aragón> owl:sameAs <http://es.dbpedia.org/resource/Torralba_de_Aragón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torre_la_Ribera> owl:sameAs <http://es.dbpedia.org/resource/Torre_la_Ribera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pedrosas_(Las)> owl:sameAs <http://es.dbpedia.org/resource/Las_Pedrosas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrente_de_Cinca> owl:sameAs <http://es.dbpedia.org/resource/Torrente_de_Cinca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torres_de_Alcanadre> owl:sameAs <http://es.dbpedia.org/resource/Torres_de_Alcanadre> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Toril_y_Masegoso> owl:sameAs <http://es.dbpedia.org/resource/Toril_y_Masegoso> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torres_de_Barbués> owl:sameAs <http://es.dbpedia.org/resource/Torres_de_Barbués> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pina_de_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Pina_de_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pintanos_(Los)> owl:sameAs <http://es.dbpedia.org/resource/Los_Pintanos> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Plasencia_de_Jalón> owl:sameAs <http://es.dbpedia.org/resource/Plasencia_de_Jalón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torralba_de_los_Sisones> owl:sameAs <http://es.dbpedia.org/resource/Torralba_de_los_Sisones> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valle_de_Bardají> owl:sameAs <http://es.dbpedia.org/resource/Valle_de_Bardají> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valle_de_Lierp> owl:sameAs <http://es.dbpedia.org/resource/Valle_de_Lierp> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrecilla_de_Alcañiz> owl:sameAs <http://es.dbpedia.org/resource/Torrecilla_de_Alcañiz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Velilla_de_Cinca> owl:sameAs <http://es.dbpedia.org/resource/Velilla_de_Cinca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrecilla_del_Rebollar> owl:sameAs <http://es.dbpedia.org/resource/Torrecilla_del_Rebollar> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Viacamp_y_Litera> owl:sameAs <http://es.dbpedia.org/resource/Viacamp_y_Litera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pozuel_de_Ariza> owl:sameAs <http://es.dbpedia.org/resource/Pozuel_de_Ariza> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torre_de_Arcas> owl:sameAs <http://es.dbpedia.org/resource/Torre_de_Arcas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torre_de_las_Arcas> owl:sameAs <http://es.dbpedia.org/resource/Torre_de_las_Arcas> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pozuelo_de_Aragón> owl:sameAs <http://es.dbpedia.org/resource/Pozuelo_de_Aragón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torre_del_Compte> owl:sameAs <http://es.dbpedia.org/resource/Torre_del_Compte> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Pradilla_de_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Pradilla_de_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villanueva_de_Sigena> owl:sameAs <http://es.dbpedia.org/resource/Villanueva_de_Sigena> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Puebla_de_Albortón> owl:sameAs <http://es.dbpedia.org/resource/Puebla_de_Albortón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torre_los_Negros> owl:sameAs <http://es.dbpedia.org/resource/Torre_los_Negros> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Puebla_de_Alfindén_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Puebla_de_Alfindén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torremocha_de_Jiloca> owl:sameAs <http://es.dbpedia.org/resource/Torremocha_de_Jiloca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Yebra_de_Basa> owl:sameAs <http://es.dbpedia.org/resource/Yebra_de_Basa> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torres_de_Albarracín> owl:sameAs <http://es.dbpedia.org/resource/Torres_de_Albarracín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Valle_de_Hecho> owl:sameAs <http://es.dbpedia.org/resource/Valle_de_Hecho> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrijo_del_Campo> owl:sameAs <http://es.dbpedia.org/resource/Torrijo_del_Campo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Puente_la_Reina_de_Jaca> owl:sameAs <http://es.dbpedia.org/resource/Puente_la_Reina_de_Jaca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/San_Miguel_del_Cinca> owl:sameAs <http://es.dbpedia.org/resource/San_Miguel_del_Cinca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sotonera_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Sotonera> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Rueda_de_Jalón> owl:sameAs <http://es.dbpedia.org/resource/Rueda_de_Jalón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Hoz_y_Costeán> owl:sameAs <http://es.dbpedia.org/resource/Hoz_y_Costeán> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Urrea_de_Gaén> owl:sameAs <http://es.dbpedia.org/resource/Urrea_de_Gaén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Santa_María_de_Dulcis> owl:sameAs <http://es.dbpedia.org/resource/Santa_María_de_Dulcis> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Salillas_de_Jalón> owl:sameAs <http://es.dbpedia.org/resource/Salillas_de_Jalón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/San_Martín_de_la_Virgen_de_Moncayo> owl:sameAs <http://es.dbpedia.org/resource/San_Martín_de_la_Virgen_de_Moncayo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Salvatierra_de_Esca> owl:sameAs <http://es.dbpedia.org/resource/Salvatierra_de_Esca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Samper_del_Salz> owl:sameAs <http://es.dbpedia.org/resource/Samper_del_Salz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/San_Mateo_de_Gállego> owl:sameAs <http://es.dbpedia.org/resource/San_Mateo_de_Gállego> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Santa_Cruz_de_Grío> owl:sameAs <http://es.dbpedia.org/resource/Santa_Cruz_de_Grío> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Santa_Cruz_de_Moncayo> owl:sameAs <http://es.dbpedia.org/resource/Santa_Cruz_de_Moncayo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Santa_Eulalia_de_Gállego> owl:sameAs <http://es.dbpedia.org/resource/Santa_Eulalia_de_Gállego> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sierra_de_Luna> owl:sameAs <http://es.dbpedia.org/resource/Sierra_de_Luna> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Sos_del_Rey_Católico> owl:sameAs <http://es.dbpedia.org/resource/Sos_del_Rey_Católico> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torralba_de_los_Frailes> owl:sameAs <http://es.dbpedia.org/resource/Torralba_de_los_Frailes> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torralba_de_Ribota> owl:sameAs <http://es.dbpedia.org/resource/Torralba_de_Ribota> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torres_de_Berrellén> owl:sameAs <http://es.dbpedia.org/resource/Torres_de_Berrellén> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Undués_de_Lerda> owl:sameAs <http://es.dbpedia.org/resource/Undués_de_Lerda> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Torrijo_de_la_Cañada> owl:sameAs <http://es.dbpedia.org/resource/Torrijo_de_la_Cañada> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Urrea_de_Jalón> owl:sameAs <http://es.dbpedia.org/resource/Urrea_de_Jalón> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Val_de_San_Martín> owl:sameAs <http://es.dbpedia.org/resource/Val_de_San_Martín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Velilla_de_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Velilla_de_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Velilla_de_Jiloca> owl:sameAs <http://es.dbpedia.org/resource/Velilla_de_Jiloca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Vera_de_Moncayo> owl:sameAs <http://es.dbpedia.org/resource/Vera_de_Moncayo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villafranca_de_Ebro> owl:sameAs <http://es.dbpedia.org/resource/Villafranca_de_Ebro> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villalba_de_Perejil> owl:sameAs <http://es.dbpedia.org/resource/Villalba_de_Perejil> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Vilueña_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Vilueña> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villanueva_de_Jiloca> owl:sameAs <http://es.dbpedia.org/resource/Villanueva_de_Jiloca> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villanueva_de_Gállego> owl:sameAs <http://es.dbpedia.org/resource/Villanueva_de_Gállego> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villar_de_los_Navarros> owl:sameAs <http://es.dbpedia.org/resource/Villar_de_los_Navarros> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villanueva_de_Huerva> owl:sameAs <http://es.dbpedia.org/resource/Villanueva_de_Huerva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villarreal_de_Huerva> owl:sameAs <http://es.dbpedia.org/resource/Villarreal_de_Huerva> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villarroya_de_la_Sierra> owl:sameAs <http://es.dbpedia.org/resource/Villarroya_de_la_Sierra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villarroya_del_Campo> owl:sameAs <http://es.dbpedia.org/resource/Villarroya_del_Campo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villamayor_de_Gállego> owl:sameAs <http://es.dbpedia.org/resource/Villamayor_de_Gállego> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Vallecillo_(El)> owl:sameAs <http://es.dbpedia.org/resource/El_Vallecillo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Zaida_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Zaida> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Veguillas_de_la_Sierra> owl:sameAs <http://es.dbpedia.org/resource/Veguillas_de_la_Sierra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villafranca_del_Campo> owl:sameAs <http://es.dbpedia.org/resource/Villafranca_del_Campo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villahermosa_del_Campo> owl:sameAs <http://es.dbpedia.org/resource/Villahermosa_del_Campo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villanueva_del_Rebollar_de_la_Sierra> owl:sameAs <http://es.dbpedia.org/resource/Villanueva_del_Rebollar_de_la_Sierra> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villar_del_Cobo> owl:sameAs <http://es.dbpedia.org/resource/Villar_del_Cobo> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villar_del_Salz> owl:sameAs <http://es.dbpedia.org/resource/Villar_del_Salz> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Villarroya_de_los_Pinares> owl:sameAs <http://es.dbpedia.org/resource/Villarroya_de_los_Pinares> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Vivel_del_Río_Martín> owl:sameAs <http://es.dbpedia.org/resource/Vivel_del_Río_Martín> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Zoma_(La)> owl:sameAs <http://es.dbpedia.org/resource/La_Zoma> .
+
+<http://opendata.aragon.es/recurso/territorio/Municipio/Aranda_de_Moncayo> owl:sameAs <http://es.dbpedia.org/resource/Aranda_de_Moncayo> .
