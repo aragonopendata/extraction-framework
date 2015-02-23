@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?><mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/">
+    
+    <page><title>OntologyClass:Municipality</title><ns>200</ns><id>6568</id><revision><id>24259</id><timestamp>2013-03-07T12:47:25Z</timestamp><text>{{Class
+        | labels =
+        {{label|en|municipality}}
+        {{label|es|municipio}}
+        | comments =
+        {{comment|en|An administrative body governing a territorial unity on the lower level, administering one or a few more settlements}}
+        | rdfs:subClassOf = GovernmentalAdministrativeRegion
+        | owl:equivalentClass =
+        }}</text></revision></page>
+
+<page><title>OntologyClass:Aragopediaonto:Comarca</title><ns>200</ns><id>6568</id><revision><id>24259</id><timestamp>2013-03-07T12:47:25Z</timestamp><text>{{Class
+    | labels =
+    {{label|en|region}}
+    {{label|es|comarca}}
+    | comments =
+    {{comment|en|Comarca}}
+    | rdfs:subClassOf = GovernmentalAdministrativeRegion
+    | owl:equivalentClass =
+    }}</text></revision></page>
+
+<page><title>OntologyClass:Province</title><ns>200</ns><id>6560</id><revision><id>24212</id><timestamp>2013-03-04T21:05:20Z</timestamp><text>{{Class
+    | labels =
+    {{label|en|province}}
+    {{label|es|provincia}}
+    | comments =
+    {{comment|en|An administrative body governing a territorial unity on the intermediate level, between local and national level}}
+    | rdfs:subClassOf = GovernmentalAdministrativeRegion
+    | owl:equivalentClass =
+    }}</text></revision></page>
+
+<page><title>OntologyClass:Aragopediaonto:ComunidadAutonoma</title><ns>200</ns><id>6568</id><revision><id>24259</id><timestamp>2013-03-07T12:47:25Z</timestamp><text>{{Class
+    | labels =
+    {{label|en|comunidad Autónoma}}
+    {{label|es|Comunidad Autónoma}}
+    | comments =
+    {{comment|es|Comunidad Autónoma}}
+    | rdfs:subClassOf = GovernmentalAdministrativeRegion
+    | owl:equivalentClass =
+    }}</text></revision></page>
+
+    <page><title>OntologyClass:GovernmentalAdministrativeRegion</title><ns>200</ns><id>6559</id><revision><id>24210</id><timestamp>2013-03-04T20:59:14Z</timestamp><text>{{Class
+        | labels =
+        {{label|en|governmental administrative region}}
+        | comments =
+        {{comment|en|An administrative body governing some territorial unity, in this case a governmental administrative body}}
+        | rdfs:subClassOf = AdministrativeRegion
+        | owl:equivalentClass = 
+        }}</text></revision></page>
+    
+<page><title>OntologyClass:AdministrativeRegion</title><ns>200</ns><id>301</id><revision><id>25851</id><timestamp>2013-06-07T14:07:41Z</timestamp><text>{{Class
+| labels =
+{{label|en|administrative region}}
+{{label|es|región administrativa}}
+| comments =
+{{comment|en|A PopulatedPlace under the jurisdiction of an administrative body. This body may administer either a whole region or one or more adjacent Settlements (town administration)}}
+| rdfs:subClassOf = Region
+| owl:equivalentClass = schema:AdministrativeArea
+}}</text></revision></page>
+
+<page><title>OntologyClass:Region</title><ns>200</ns><id>7221</id><revision><id>25850</id><timestamp>2013-06-07T14:07:24Z</timestamp><text>{{Class
+    | labels =
+    {{label|en|region}}
+    | rdfs:subClassOf = PopulatedPlace
+    }}</text></revision></page>
+
+<page><title>OntologyClass:PopulatedPlace</title><ns>200</ns><id>439</id><revision><id>28652</id><timestamp>2013-10-14T13:50:55Z</timestamp><text>{{Class
+| rdfs:label@en = populated place
+    | rdfs:comment@en = As defined by the United States Geological Survey, a populated place is a place or area with clustered or scattered buildings and a permanent human population (city, settlement, town, or village) referenced with geographic coordinates (http://en.wikipedia.org/wiki/Populated_place).
+| rdfs:subClassOf = Place
+| owl:equivalentClass =
+}}</text></revision></page>
+
+<page><title>OntologyClass:Place</title><ns>200</ns><id>432</id><revision><id>28653</id><timestamp>2013-10-14T13:51:45Z</timestamp><text>{{Class
+    | labels =
+    {{label|en|place}}
+    {{label|es|lugar}}
+    | comments =
+    {{comment|en|Immobile things or locations.}}
+    {{comment|es|lugar}}
+    | owl:equivalentClass = schema:Place
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Country</title><ns>202</ns><id>725</id><revision><id>28127</id><timestamp>2013-08-29T15:00:23Z</timestamp><text>{{ObjectProperty
+    |labels=
+    {{label|en|country}}
+    {{label|de|Land}}
+    {{label|pt|país}}
+    {{label|el|χώρα}}
+    {{label|nl|land}}
+    {{label|fr|pays}}
+    {{label|es|país}}
+    | rdfs:range = Country
+    | owl:equivalentProperty = wikidata:P17
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:enComunidadAutonoma</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{ObjectProperty
+    | labels =
+    {{label|en|region}}
+    {{label|es|comunidad autónoma}}
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:enComarcaTemporal</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|en|region}}
+    {{label|es|comarca}}
+    | rdfs:range = xsd:string
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:codigoINE</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|en|INE code}}
+    {{label|es|codigo INE}}
+    | rdfs:range = xsd:string
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:WomenPopulation</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|en|women population}}
+    {{label|es|población de mujeres}}
+    | rdfs:range = xsd:nonNegativeInteger
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:MenPopulation</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|en|men population}}
+    {{label|es|población de hombres}}
+    | rdfs:range = xsd:nonNegativeInteger
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:Population</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|en|population}}
+    {{label|es|población}}
+    | rdfs:range = xsd:nonNegativeInteger
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:areaTotal</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas totales}}
+    {{label|en|total area}}
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:mayor</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|en|mayor}}
+    {{label|es|alcalde}}
+    | rdfs:domain = Municipality
+    | rdfs:range = xsd:string
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:symbol</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|en|symbol}}
+    {{label|es|simbolo}}
+    | rdfs:domain = Municipality
+    | rdfs:range = xsd:string
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:president</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|en|president}}
+    {{label|es|presidente}}
+    | rdfs:range = xsd:string
+    }}</text></revision></page>
+
+
+
+<page><title>OntologyClass:Qb:Observation</title><ns>200</ns><id>301</id><revision><id>25851</id><timestamp>2013-06-07T14:07:41Z</timestamp><text>{{Class
+    | labels =
+    {{label|en|DataCube observation}}
+    {{label|es|observación DataCube}}
+    | comments =
+    | rdfs:subClassOf =
+    | owl:equivalentClass =
+    }}</text></revision></page>
+
+<page><title>OntologyClass:ObservationSet</title><ns>200</ns><id>301</id><revision><id>25851</id><timestamp>2013-06-07T14:07:41Z</timestamp><text>{{Class
+    | labels =
+    {{label|es|conjunto de observaciones}}
+    | comments =
+    | rdfs:subClassOf =
+    | owl:equivalentClass =
+    }}</text></revision></page>
+
+<page><title>OntologyClass:Qb:DataSet</title><ns>200</ns><id>301</id><revision><id>25851</id><timestamp>2013-06-07T14:07:41Z</timestamp><text>{{Class
+    | labels =
+    {{label|en|DataSet observation}}
+    {{label|es|observación DataSet}}
+    | comments =
+    | rdfs:subClassOf =
+    | owl:equivalentClass =
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Qb:dataSet</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{ObjectProperty
+    | labels =
+    {{label|es|dataset al que pertenece una observación}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = Qb:DataSet
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:refArea</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{ObjectProperty
+    | labels =
+    {{label|es|área geográfica a la cual se aplica una observación}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = GovernmentalAdministrativeRegion
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:isDataSetOf</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{ObjectProperty
+    | labels =
+    {{label|es|propiedad inversa}}
+    | rdfs:domain = Qb:DataSet
+    | rdfs:range = Qb:Observation
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:Year</title><ns>202</ns><id>1587</id><revision><id>27525</id><timestamp>2013-07-15T08:32:09Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|en|year}}
+    {{label|de|Jahr}}
+    {{label|it|anno}}
+    {{label|es|año}}
+    {{label|nl|jaar}}
+    {{label|el|έτος}}
+    {{label|fr|année}}
+    | rdfs:range = xsd:dateTime
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:numContenedoresVidrio</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|número de contenedores de vidrio}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:nonNegativeInteger
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:numKGVidrio</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|número de kg de vidrio recogido}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:nonNegativeInteger
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:numEstablecimientos</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|número de establecimientos}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:nonNegativeInteger
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:numPlazas</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|número de plazas}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:nonNegativeInteger
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:tipoEstablecimiento</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{ObjectProperty
+    | labels =
+    {{label|es|tipo de establecimiento}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = Aragopediaonto:TipoEstablecimientoTuristico
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:gender</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{ObjectProperty
+    | labels =
+    {{label|es|género}}
+    | rdfs:domain = Qb:Observation
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:TipoEstablecimientoTuristico</title><ns>202</ns><id>725</id><revision><id>28127</id><timestamp>2013-08-29T15:00:23Z</timestamp><text>{{ObjectProperty
+    |labels=
+    {{label|en|touristic building type}}
+    {{label|es|tipo de establecimiento turístico}}
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:hectareasTejUrbanoContinuo</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de tejido urbano continuo}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:hectareasTejUrbanoDiscontinuo</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de tejido urbano discontinuo}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasZonasIndustrialesComerciales</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de zonas industriales comerciales}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasCarreterasTren</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de carreteras y trenes}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasAeropuertos</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de aeropuertos}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasZonasMineras</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de zonas mineras}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasEscombrerasVertederos</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de escombreras y vertederos}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasZonasConstruccion</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de zonas de construcción}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasZonasVerdesUrbanas</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de zonas verdes urbanas}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasInstalacionesDeportivas</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de instalaciones deportivas}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasCultivosSecano</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de cultivos de secano}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasCultivosRegadio</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de cultivos de regadío}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasArrozales</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de arrozales}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasViniedos</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de viñedo}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasFrutales</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de frutales}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasOlivares</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de olivares}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasMosaicoCultivos</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de mosaico de cultivos}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasAgricolaVegNat</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo agrícola}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasBosquesFrondosas</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de bosque de frondosas}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasConiferas</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de coníferas}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasBosquesMixtos</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de bosques mixtos}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasPastizalesNaturales</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de pastizales naturales}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasMatorralesHumedos</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de matorrales húmedos}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasMatorralesEsclerof</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de matorrales esclerof}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasMatorralBoscoso</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de matorral boscoso }}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasPlayasDunasArenales</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de playas, dunas y arenales}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasRoquedos</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de roquedos}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasEscasaVegetacion</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de escasa vegetación}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasZonasQuemadas</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de zonas quemadas}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasGlaciarNievePermanente</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de glaciares o nieves permanentes}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasHumedales</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de humedales}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasTurberas</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de turberas}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasCursosAgua</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de cursos de agua}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:hectareasLaminasAgua</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|hectareas de suelo de láminas de agua}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+
+<page><title>OntologyProperty:Aragopediaonto:consumoGasolina98</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|consumo de gasolina 98}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:consumoGasolina97</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|consumo de gasolina 97}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:consumoGasolina95</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|consumo de gasolina 95}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:consumoGasolinaTotal</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|consumo de gasolina total}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:consumoGasoleoTipoA</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|consumo de gasoleo tipo A}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:consumoGasoleoTipoB</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|consumo de gasoleo tipo B}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:consumoGasoleoTipoC</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|consumo de gasoleo tipo C}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:consumoGasoleoBiodiesel</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|consumo de gasoleo biodiesel}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+<page><title>OntologyProperty:Aragopediaonto:consumoGasoleoOtros</title><ns>202</ns><id>1292</id><revision><id>26186</id><timestamp>2013-06-18T11:00:12Z</timestamp><text>{{DatatypeProperty
+    | labels =
+    {{label|es|consumo de otros tipos de gasoleo}}
+    | rdfs:domain = Qb:Observation
+    | rdfs:range = xsd:double
+    }}</text></revision></page>
+
+
+
+
+<page><title>OntologyClass:Population</title><ns>200</ns><id>7909</id><revision><id>28472</id><timestamp>2013-09-30T11:55:39Z</timestamp><text>{{Class
+| rdfs:label@en = population
+| rdfs:label@nl = bevolking
+}}</text></revision></page>
+
+
+
+
+
+
+
+<page><title>OntologyProperty:Abstract</title><ns>202</ns><id>495</id><revision><id>21143</id><timestamp>2012-12-27T14:44:12Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{DatatypeProperty
+| labels = 
+{{label|en|has abstract}}
+{{label|el|έχει περίληψη}}
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+{{comment|el|Προορίζεται για την DBpedia. {{Reserved for DBpedia}}}}
+| rdfs:range = xsd:string
+}}</text></revision></page>
+
+<page><title>OntologyProperty:Area</title><ns>202</ns><id>7943</id><revision><id>27864</id><timestamp>2013-07-16T14:56:46Z</timestamp><text>{{DatatypeProperty
+| labels =
+{{label|en|area}}
+{{label|nl|oppervlakte}}
+{{label|pt|área}}
+{{label|de|Fläche}}
+{{label|fr|superficie}}
+{{label|el|έκταση}}
+| rdfs:range = Area
+| rdfs:comment@en = The area of a owl:Thing in square metre.
+}}</text></revision></page>
+
+<page><title>OntologyProperty:AreaLand</title><ns>202</ns><id>551</id><revision><id>19910</id><timestamp>2012-11-21T18:30:34Z</timestamp><text>{{DatatypeProperty
+| labels =
+{{label|en|area land}}
+{{label|nl|oppervlakte land}}
+{{label|el|έκταση_στεριάς_περιοχής}}
+| rdfs:domain = Place
+| rdfs:range = Area
+}}</text></revision></page>
+
+<page><title>OntologyProperty:AreaTotal</title><ns>202</ns><id>556</id><revision><id>27782</id><timestamp>2013-07-16T14:02:58Z</timestamp><text>{{DatatypeProperty
+| labels =
+{{label|de|Fläche}}
+{{label|en|area total}}
+{{label|nl|oppervlakte}}
+{{label|el|έκταση περιοχής}}
+{{label|fr|superficie}}
+| rdfs:domain = Place
+| rdfs:range = Area
+}}</text></revision></page>
+
+<page><title>OntologyProperty:AreaUrban</title><ns>202</ns><id>557</id><revision><id>21093</id><timestamp>2012-12-27T10:56:23Z</timestamp><text>{{DatatypeProperty
+| rdfs:label@en = area urban
+| rdfs:label@el = αστική περιοχή
+| rdfs:domain = PopulatedPlace
+| rdfs:range = Area
+}}</text></revision></page>
+
+
+
+<page><title>OntologyProperty:BuildingType</title><ns>202</ns><id>6257</id><revision><id>21719</id><timestamp>2013-01-03T16:17:46Z</timestamp><text>{{ObjectProperty
+| labels                 =
+{{label|en|buildingType}}
+{{label|el|Τύπος κτιρίου}}
+{{label|nl|soort gebouw}}
+| comments               =
+{{comment|en|Type is too general. We should be able to distinguish types of music from types of architecture}}
+{{comment|nl|Type is te algemeen. We moeten soorten muziek van soorten gebouwen kunnen onderscheiden}}
+{{comment|el|Ο τύπος είναι πολύ γενικό.Θα πρέπει να είναι σε θέση να διακρίνουν τα είδη της μουσικής από τους τύπους της αρχιτεκτονικής}}
+| rdfs:domain            = Building
+| rdfs:range             = owl:Thing
+| rdf:type               =
+| rdfs:subPropertyOf     = Type
+| owl:equivalentProperty = 
+}}</text></revision></page>
+
+
+
+<page><title>OntologyProperty:Foaf:name</title><ns>202</ns><id>1615</id><revision><id>25937</id><timestamp>2013-06-13T12:47:27Z</timestamp><text>{{DatatypeProperty
+|labels=
+ {{label|en|name}}
+ {{label|de|Name}}
+ {{label|es|nombre}}
+ {{label|fr|nom}}
+ {{label|pt|nome}}
+ {{label|el|όνομα}}
+ {{label|ja|名前}}
+ {{label|nl|naam}}
+ {{label|it|nome}}
+| rdfs:domain = owl:Thing
+| rdfs:range = xsd:string
+| owl:equivalentProperty = schema:name
+}}</text></revision></page>
+
+
+<!--
+<page><title>OntologyProperty:Geo:lat</title><ns>202</ns><id>1620</id><revision><id>13649</id><timestamp>2011-06-14T13:45:19Z</timestamp><text>{{DatatypeProperty
+|rdfs:label@en		= latitude
+|rdfs:domain	= gml:_Feature
+|rdfs:range		= xsd:float
+|rdf:type = owl:FunctionalProperty
+|owl:equivalentProperty = schema:latitude
+}}</text></revision></page>
+
+<page><title>OntologyProperty:Geo:long</title><ns>202</ns><id>1621</id><revision><id>13650</id><timestamp>2011-06-14T13:46:26Z</timestamp><text>{{DatatypeProperty
+|rdfs:label@en		= longitude
+|rdfs:domain	= gml:_Feature
+|rdfs:range		= xsd:float
+|rdf:type = owl:FunctionalProperty
+| owl:equivalentProperty = schema:longitude
+}}</text></revision></page>
+-->
+
+
+<page><title>OntologyProperty:Population</title><ns>202</ns><id>7908</id><revision><id>27527</id><timestamp>2013-07-15T08:38:19Z</timestamp><text>{{ObjectProperty | labels = {{label|en|population}} | rdfs:domain = PopulatedPlace | rdfs:range = Population }}</text></revision></page>
+
+
+
+
+<page><title>OntologyProperty:Schema:duration</title><ns>202</ns><id>5761</id><revision><id>18624</id><timestamp>2012-05-22T04:42:17Z</timestamp><text>#REDIRECT [[OntologyProperty:Duration]]</text></revision></page>
+
+<page><title>OntologyProperty:Skos:broader</title><ns>202</ns><id>1625</id><revision><id>24758</id><timestamp>2013-04-05T08:00:06Z</timestamp><text>{{ObjectProperty
+|rdfs:label@en		= broader
+|rdfs:label@de		= weiter
+|rdfs:label@it		= più ampio
+}}</text></revision></page><page><title>OntologyProperty:Skos:prefLabel</title><ns>202</ns><id>1627</id><revision><id>24759</id><timestamp>2013-04-05T08:04:00Z</timestamp><text>{{DatatypeProperty
+|rdfs:label@en		= prefLabel
+|rdfs:label@de		= bevorzugtes Label
+|rdfs:label@it		= Label preferito
+|rdfs:range		= xsd:string
+}}</text></revision></page><page><title>OntologyProperty:Skos:related</title><ns>202</ns><id>2906</id><revision><id>19886</id><timestamp>2012-11-21T17:36:06Z</timestamp><text>{{ObjectProperty
+| labels =
+{{label|en|related}}
+{{label|nl|gerelateerd}}
+}}</text></revision></page><page><title>OntologyProperty:Skos:subject</title><ns>202</ns><id>1628</id><revision><id>24757</id><timestamp>2013-04-05T07:59:17Z</timestamp><text>{{ObjectProperty
+|rdfs:label@en = subject
+|rdfs:label@de = subjekt
+|rdfs:label@it = soggetto
+|rdfs:comment@en = DEPRECATED
+}}</text></revision></page>
+
+
+<page><title>OntologyProperty:Statistic</title><ns>202</ns><id>7870</id><revision><id>27328</id><timestamp>2013-07-10T12:10:25Z</timestamp><text>{{ObjectProperty
+| labels =
+{{label|en|statistic}}
+| rdfs:domain = Statistic
+}}</text></revision></page><page><title>OntologyProperty:StatisticLabel</title><ns>202</ns><id>1474</id><revision><id>8907</id><timestamp>2010-05-28T16:30:01Z</timestamp><text>{{ObjectProperty
+| rdfs:label@en = statistic label
+| rdfs:domain = BaseballPlayer
+}}</text></revision></page><page><title>OntologyProperty:StatisticValue</title><ns>202</ns><id>1475</id><revision><id>8288</id><timestamp>2010-05-28T13:44:09Z</timestamp><text>{{DatatypeProperty
+| rdfs:label@en = statistic value
+| rdfs:domain = BaseballPlayer
+| rdfs:range = xsd:float
+}}</text></revision></page><page><title>OntologyProperty:StatisticYear</title><ns>202</ns><id>1476</id><revision><id>8289</id><timestamp>2010-05-28T13:44:16Z</timestamp><text>{{DatatypeProperty
+| rdfs:label@en = statistic year
+| rdfs:domain = BaseballPlayer
+| rdfs:range = xsd:date
+}}</text></revision></page>
+
+<page><title>OntologyProperty:WikiPageDisambiguates</title><ns>202</ns><id>2426</id><revision><id>18692</id><timestamp>2012-05-28T19:35:13Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{ObjectProperty
+| rdfs:label@en = Wikipage disambiguates
+| rdfs:domain = owl:Thing
+| rdfs:range = owl:Thing
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageEditLink</title><ns>202</ns><id>8156</id><revision><id>28721</id><timestamp>2013-11-06T15:33:22Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{ObjectProperty
+| rdfs:label@en = Link to the Wikipage edit URL
+| rdfs:domain = owl:Thing
+| rdfs:range = owl:Thing
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageExternalLink</title><ns>202</ns><id>2430</id><revision><id>18693</id><timestamp>2012-05-28T19:35:34Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{ObjectProperty
+| rdfs:label@en = Link from a Wikipage to an external page
+| rdfs:domain = owl:Thing
+| rdfs:range = owl:Thing
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageExtracted</title><ns>202</ns><id>8154</id><revision><id>28718</id><timestamp>2013-11-06T15:29:56Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{DatatypeProperty
+| rdfs:label@en = extraction datetime
+| rdfs:range = xsd:dateTime
+| comments = 
+{{comment|en|Date a page was extracted '''{{Reserved for DBpedia}}'''}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageHistoryLink</title><ns>202</ns><id>8158</id><revision><id>28723</id><timestamp>2013-11-06T18:20:28Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{ObjectProperty
+| rdfs:label@en = Link to the Wikipage history URL
+| rdfs:domain = owl:Thing
+| rdfs:range = owl:Thing
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageID</title><ns>202</ns><id>2429</id><revision><id>18694</id><timestamp>2012-05-28T19:35:43Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{DatatypeProperty
+| rdfs:label@en = Wikipage page ID
+| rdfs:range = xsd:integer
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageInterLanguageLink</title><ns>202</ns><id>5779</id><revision><id>18698</id><timestamp>2012-05-28T19:40:06Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{ObjectProperty
+| rdfs:label@en = Link from a Wikipage to a Wikipage in a different language about the same or a related subject.
+| rdfs:domain = owl:Thing
+| rdfs:range = owl:Thing
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageModified</title><ns>202</ns><id>8157</id><revision><id>28722</id><timestamp>2013-11-06T15:38:56Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{DatatypeProperty
+| rdfs:label@en = Wikipage modification datetime
+| rdfs:range = xsd:dateTime
+| comments = 
+{{comment|en|Reserved for DBpedia '''{{Reserved for DBpedia}}'''}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageRedirects</title><ns>202</ns><id>2425</id><revision><id>18695</id><timestamp>2012-05-28T19:36:13Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{ObjectProperty
+| rdfs:label@en = Wikipage redirect
+| rdfs:domain = owl:Thing
+| rdfs:range = owl:Thing
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageRevisionID</title><ns>202</ns><id>2427</id><revision><id>18696</id><timestamp>2012-05-28T19:36:22Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{DatatypeProperty
+| rdfs:label@en = Wikipage revision ID
+| rdfs:range = xsd:integer
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageRevisionLink</title><ns>202</ns><id>8155</id><revision><id>28720</id><timestamp>2013-11-06T15:32:54Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{ObjectProperty
+| rdfs:label@en = Link to the Wikipage revision URL
+| rdfs:domain = owl:Thing
+| rdfs:range = owl:Thing
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+}}</text></revision></page><page><title>OntologyProperty:WikiPageWikiLink</title><ns>202</ns><id>2431</id><revision><id>18697</id><timestamp>2012-05-28T19:38:29Z</timestamp><text>'''{{Reserved for DBpedia}}'''
+
+{{ObjectProperty
+| rdfs:label@en = Link from a Wikipage to another Wikipage
+| rdfs:domain = owl:Thing
+| rdfs:range = owl:Thing
+| comments = 
+{{comment|en|Reserved for DBpedia. {{Reserved for DBpedia}}}}
+}}</text></revision></page>
+
+
+</mediawiki>

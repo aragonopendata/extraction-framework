@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/">
+
+<page><title>Mapping es:Ficha de localidad de España</title><ns>214</ns><id>4698</id><revision><id>15820</id><timestamp>2011-11-03T18:13:41Z</timestamp>
+<text>{{TemplateMapping
+    | mapToClass = Municipality
+| mappings =
+{{ConstantMapping | ontologyProperty = aragopediaonto:enComunidadAutonoma | value = Aragón}}
+{{ConstantMapping | ontologyProperty = country | value = Spain}}
+{{PropertyMapping | templateProperty = COMARCA_MUNICIPIO | ontologyProperty = aragopediaonto:enComarcaTemporal }}
+{{PropertyMapping | templateProperty = nombre | ontologyProperty = rdfs:label }}
+{{PropertyMapping | templateProperty = ine | ontologyProperty = aragopediaonto:codigoINE }}
+{{PropertyMapping | templateProperty = TOTAL_HOMBRES_MUNICIPIOS_DE_ARAGON | ontologyProperty = aragopediaonto:menPopulation }}
+{{PropertyMapping | templateProperty = TOTAL_MUJERES_MUNICIPIOS_DE_ARAGON | ontologyProperty = aragopediaonto:womenPopulation }}
+<!--{{PropertyMapping | templateProperty = NUMERO_HABITANTES_MUNICIPIO | ontologyProperty = aragopediaonto:population }}-->
+{{PropertyMapping | templateProperty = SUPERFICIE_MUNICIPIO | ontologyProperty = aragopediaonto:areaTotal }}
+{{PropertyMapping | templateProperty = ALCALDE_MUNICIPIO | ontologyProperty = aragopediaonto:mayor }}
+{{PropertyMapping | templateProperty = SIMBOLO_MUNICIPIO | ontologyProperty = aragopediaonto:symbol }}
+}}</text></revision></page>
+
+<page><title>Mapping es:Ficha de comarca de Aragon</title><ns>214</ns><id>4698</id><revision><id>15820</id><timestamp>2011-11-03T18:13:41Z</timestamp>
+    <text>{{TemplateMapping
+        | mapToClass = aragopediaonto:Comarca
+        | mappings =
+        {{ConstantMapping | ontologyProperty = country | value = Spain}}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:enComunidadAutonoma | value = Aragón}}
+        {{PropertyMapping | templateProperty = nombre | ontologyProperty = rdfs:label }}
+        {{PropertyMapping | templateProperty = TOTAL_HOMBRES_COMARCAS_DE_ARAGON | ontologyProperty = aragopediaonto:menPopulation }}
+        {{PropertyMapping | templateProperty = TOTAL_MUJERES_COMARCAS_DE_ARAGON | ontologyProperty = aragopediaonto:womenPopulation }}
+        {{PropertyMapping | templateProperty = PRESIDENTE_COMARCA | ontologyProperty = aragopediaonto:president }}
+        }}</text></revision></page>
+
+<page><title>Mapping es:Ficha de provincia de Aragon</title><ns>214</ns><id>4698</id><revision><id>15820</id><timestamp>2011-11-03T18:13:41Z</timestamp>
+    <text>{{TemplateMapping
+        | mapToClass = Province
+        | mappings =
+        {{ConstantMapping | ontologyProperty = country | value = Spain}}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:enComunidadAutonoma | value = Aragón}}
+        {{PropertyMapping | templateProperty = nombre | ontologyProperty = rdfs:label }}
+        {{PropertyMapping | templateProperty = TOTAL_HOMBRES_PROVINCIA_DE | ontologyProperty = aragopediaonto:menPopulation }}
+        {{PropertyMapping | templateProperty = TOTAL_MUJERES__PROVINCIA_DE | ontologyProperty = aragopediaonto:womenPopulation }}
+        }}</text></revision></page>
+
+<page><title>Mapping es:Ficha de comunidad autonoma de Aragon</title><ns>214</ns><id>4698</id><revision><id>15820</id><timestamp>2011-11-03T18:13:41Z</timestamp>
+    <text>{{TemplateMapping
+        | mapToClass = aragopediaonto:ComunidadAutonoma
+        | mappings =
+        {{ConstantMapping | ontologyProperty = country | value = Spain}}
+        {{PropertyMapping | templateProperty = nombre | ontologyProperty = rdfs:label }}
+        {{PropertyMapping | templateProperty = TOTAL_HOMBRES_ARAGON | ontologyProperty = aragopediaonto:menPopulation }}
+        {{PropertyMapping | templateProperty = TOTAL_MUJERES__ARAGON | ontologyProperty = aragopediaonto:womenPopulation }}
+        }}</text></revision></page>
+
+
+
+
+<page><title>Mapping es:Ficha de datos de reciclaje</title><ns>214</ns><id>4698</id><revision><id>15820</id><timestamp>2011-11-03T18:13:41Z</timestamp>
+    <text>{{TemplateMapping
+        | mapToClass = ObservationSet
+        | correspondingClass = AdministrativeRegion
+        | correspondingProperty = aragopediaonto:refArea
+        | mappings =
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2013 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2013 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2013 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2013 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2013 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2013 | ontologyProperty = aragopediaonto:numKGVidrio }}
+            {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2013}}
+            {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2012 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2012 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2012 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2012 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2012 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2012 | ontologyProperty = aragopediaonto:numKGVidrio }}
+            {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2012}}
+            {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2011 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2011 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2011 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2011 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2011 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2011 | ontologyProperty = aragopediaonto:numKGVidrio }}
+            {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2011}}
+            {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2010 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2010 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2010 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2010 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2010 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2010 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2010}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2009 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2009 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2009 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2009 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2009 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2009 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2009}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2008 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2008 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2008 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2008 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2008 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2008 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2008}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2007 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2007 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2007 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2007 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2007 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2007 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2007}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2006 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2006 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2006 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2006 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2006 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2006 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2006}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2005 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2005 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2005 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2005 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2005 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2005 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2005}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2004 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2004 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2004 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2004 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2004 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2004 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2004}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2003 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2003 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2003 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2003 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2003 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2003 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2003}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2002 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2002 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2002 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2002 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2002 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2002 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2002}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2001 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2001 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2001 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2001 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2001 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2001 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2001}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_2000 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_2000 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_2000 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_2000 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_2000 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_2000 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2000}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_1999 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_1999 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_1999 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_1999 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_1999 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_1999 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1999}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_1998 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_1998 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_1998 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_1998 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_1998 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_1998 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1998}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_MUNICIPIOS_1997 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_1997 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_CONTENEDORES_VIDRIO_ARAGON_1997 | ontologyProperty = aragopediaonto:numContenedoresVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_MUNICIPIOS_1997 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_1997 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{PropertyMapping | templateProperty = NUM_KG_VIDRIO_RECOGIDO_ARAGON_1997 | ontologyProperty = aragopediaonto:numKGVidrio }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1997}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/Reciclaje}}
+        }}
+}}
+</text></revision></page>
+
+
+<!--<page><title>Mapping es:Ficha de datos turisticos</title><ns>214</ns><id>4698</id><revision><id>15820</id><timestamp>2011-11-03T18:13:41Z</timestamp>-->
+<page><title>Mapping es:Plantilla turismo municipio</title><ns>214</ns><id>4698</id><revision><id>15820</id><timestamp>2011-11-03T18:13:41Z</timestamp>
+    <text>{{TemplateMapping
+        | mapToClass = ObservationSet
+        | correspondingClass = AdministrativeRegion
+        | correspondingProperty = aragopediaonto:refArea
+        | mappings =
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = ALOJAMIENTO_TURISTICO_2009_POR_MUNICIPIO_HOTELES_ESTABLECIMIENTOS | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = ALOJAMIENTO_TURISTICO_2009_POR_MUNICIPIO_HOTELES_PLAZAS | ontologyProperty = aragopediaonto:numPlazas }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:tipoEstablecimiento | value = Hotel}}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2009}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/DatosTuristicos}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = EST_HOTEL_MUNICIPIOS_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_HOTEL_COMARCAS_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_HOTEL_PROVINCIA_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_ARAGON_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = PLAZAS_HOTEL_MUNICIPIOS_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_HOTEL_COMARCAS_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_HOTEL_PROVINCIA_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_HOTEL_ARAGON_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:tipoEstablecimiento | value = Hotel}}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2011}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/DatosTuristicos}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = EST_CAMPINGS_MUNICIPIOS_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_CAMPINGS_COMARCAS_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_CAMPINGS_PROVINCIA_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_CAMPINGS_ARAGON_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = PLAZAS_CAMPINGS_MUNICIPIOS_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_CAMPINGS_COMARCAS_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_CAMPINGS_PROVINCIA_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_CAMPINGS_ARAGON_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:tipoEstablecimiento | value = Camping}}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2011}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/DatosTuristicos}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = EST_TURISMO_RURAL_MUNICIPIOS_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_TURISMO_RURAL_COMARCAS_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_TURISMO_RURAL_PROVINCIA_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_TURISMO_RURAL_ARAGON_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = PLAZAS_TURISMO_RURAL_MUNICIPIOS_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_TURISMO_RURAL_COMARCAS_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_TURISMO_RURAL_PROVINCIA_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_TURISMO_RURAL_ARAGON_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:tipoEstablecimiento | value = TurismoRural}}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2011}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/DatosTuristicos}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = EST_APARTAMENTOS_MUNICIPIOS_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_APARTAMENTOS_COMARCAS_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_APARTAMENTOS_PROVINCIA_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = EST_APARTAMENTOS_ARAGON_2011 | ontologyProperty = aragopediaonto:numEstablecimientos }}
+        {{PropertyMapping | templateProperty = PLAZAS_APARTAMENTOS_MUNICIPIOS_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_APARTAMENTOS_COMARCAS_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_APARTAMENTOS_PROVINCIA_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{PropertyMapping | templateProperty = PLAZAS_APARTAMENTOS_ARAGON_2011 | ontologyProperty = aragopediaonto:numPlazas }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:tipoEstablecimiento | value = Apartamento}}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2011}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/DatosTuristicos}}
+        }}
+}}
+    </text></revision></page>
+
+
+
+<page><title>Mapping es:Ficha de padron municipal</title><ns>214</ns><id>4698</id><revision><id>15820</id><timestamp>2011-11-03T18:13:41Z</timestamp>
+    <text>{{TemplateMapping
+        | mapToClass = ObservationSet
+        | correspondingClass = AdministrativeRegion
+        | correspondingProperty = aragopediaonto:refArea
+        | mappings =
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_1900 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1900}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_1910 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1910}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_1920 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1920}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_1930 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1930}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_1940 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1940}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_1950 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1950}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_1960 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1960}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_1970 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1970}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_1981 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1981}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_1991 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1991}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_2001 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2001}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_2004 | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2004}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_2012_ARAGON_TOTAL | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2012}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_2012_COMARCAS_HOMBRES | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:gender | value = Male}}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2012}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = PADRON_MUNICIPAL_2012_COMARCAS_MUJERES | ontologyProperty = aragopediaonto:population }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:gender | value = Female}}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2012}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/PadronMunicipal}}
+        }}
+        }}
+    </text></revision></page>
+
+
+
+<page><title>Mapping es:Ficha de datos de usos del suelo</title><ns>214</ns><id>4698</id><revision><id>15820</id><timestamp>2011-11-03T18:13:41Z</timestamp>
+    <text>{{TemplateMapping
+        | mapToClass = ObservationSet
+        | correspondingClass = AdministrativeRegion
+        | correspondingProperty = aragopediaonto:refArea
+        | mappings =
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = USO_SUELO_TEJ_URBANO_CONTINUO_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasTejUrbanoContinuo }}
+        {{PropertyMapping | templateProperty = USO_SUELO_TEJ_URBANO_DISCONT_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasTejUrbanoDiscontinuo }}
+        {{PropertyMapping | templateProperty = USO_SUELO_ZONAS_INDUSTR_COMERC_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasZonasIndustrialesComerciales }}
+        {{PropertyMapping | templateProperty = USO_SUELO_CARRETERAS_TREN_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasCarreterasTren }}
+        {{PropertyMapping | templateProperty = USO_SUELO_AEROPUERTOS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasAeropuertos }}
+        {{PropertyMapping | templateProperty = USO_SUELO_ZONAS_MINERAS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasZonasMineras }}
+        {{PropertyMapping | templateProperty = USO_SUELO_ESCOMBRERAS_VERTED_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasEscombrerasVertederos }}
+        {{PropertyMapping | templateProperty = USO_SUELO_ZONAS_CONSTRUCCION_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasZonasConstruccion }}
+        {{PropertyMapping | templateProperty = USO_SUELO_ZONAS_VERDES_URB_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasZonasVerdesUrbanas }}
+        {{PropertyMapping | templateProperty = USO_SUELO_INST_DEPORTIVAS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasInstalacionesDeportivas }}
+        {{PropertyMapping | templateProperty = USO_SUELO_CULTIVOS_SECANO_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasCultivosSecano }}
+        {{PropertyMapping | templateProperty = USO_SUELO_CULTIVOS_REGADIO_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasCultivosRegadio }}
+        {{PropertyMapping | templateProperty = USO_SUELO_ARROZALES_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasArrozales }}
+        {{PropertyMapping | templateProperty = USO_SUELO_VINIEDOS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasViniedos }}
+        {{PropertyMapping | templateProperty = USO_SUELO_FRUTALES_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasFrutales }}
+        {{PropertyMapping | templateProperty = USO_SUELO_OLIVARES_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasOlivares }}
+        {{PropertyMapping | templateProperty = USO_SUELO_MOSAICO_CULTIVOS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasMosaicoCultivos }}
+        {{PropertyMapping | templateProperty = USO_SUELO_AGRICOLA_VEG_NAT_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasAgricolaVegNat }}
+        {{PropertyMapping | templateProperty = USO_SUELO_BOSQUES_FRONDOSAS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasBosquesFrondosas }}
+        {{PropertyMapping | templateProperty = USO_SUELO_BOSQUES_CONIFERAS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasConiferas }}
+        {{PropertyMapping | templateProperty = USO_SUELO_BOSQUES_MIXTOS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasBosquesMixtos }}
+        {{PropertyMapping | templateProperty = USO_SUELO_PASTIZALES_NATURALES_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasPastizalesNaturales }}
+        {{PropertyMapping | templateProperty = USO_SUELO_MATORRALES_HUMEDOS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasMatorralesHumedos }}
+        {{PropertyMapping | templateProperty = USO_SUELO_MATORRALES_ESCLEROF_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasMatorralesEsclerof }}
+        {{PropertyMapping | templateProperty = USO_SUELO_MATORRAL_BOSCOSO_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasMatorralBoscoso }}
+        {{PropertyMapping | templateProperty = USO_SUELO_PLAYAS_DUNAS_ARENALES_MUNIC_2006_(ha) | ontologyProperty = aragopediaonto:hectareasPlayasDunasArenales }}
+        {{PropertyMapping | templateProperty = USO_SUELO_ROQUEDOS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasRoquedos }}
+        {{PropertyMapping | templateProperty = USO_SUELO_ESCASA_VEGETACION_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasEscasaVegetacion }}
+        {{PropertyMapping | templateProperty = USO_SUELO_ZONAS_QUEMADAS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasZonasQuemadas }}
+        {{PropertyMapping | templateProperty = USO_SUELO_GLACIAR_NIEVE_PERMAN_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasGlaciarNievePermanente }}
+        {{PropertyMapping | templateProperty = USO_SUELO_HUMEDALES_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasHumedales }}
+        {{PropertyMapping | templateProperty = USO_SUELO_TURBERAS_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasTurberas }}
+        {{PropertyMapping | templateProperty = USO_SUELO_CURSOS_AGUA_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasCursosAgua }}
+        {{PropertyMapping | templateProperty = USO_SUELO_LAMINAS_AGUA_MUNICIPIO_2006_(ha) | ontologyProperty = aragopediaonto:hectareasLaminasAgua }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2006}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/UsoSuelo}}
+        }}
+        }}
+    </text></revision></page>
+
+
+<page><title>Mapping es:Ficha de datos de consumo de carburante</title><ns>214</ns><id>4698</id><revision><id>15820</id><timestamp>2011-11-03T18:13:41Z</timestamp>
+    <text>{{TemplateMapping
+        | mapToClass = ObservationSet
+        | correspondingClass = AdministrativeRegion
+        | correspondingProperty = aragopediaonto:refArea
+        | mappings =
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_1997 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_1997 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_1997 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_1997 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_1997 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_1997 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_1997 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_1997 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_1997 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1997}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_1998 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_1998 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_1998 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_1998 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_1998 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_1998 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_1998 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_1998 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_1998 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1998}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_1999 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_1999 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_1999 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_1999 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_1999 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_1999 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_1999 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_1999 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_1999 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 1999}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2000 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2000 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2000 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2000 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2000 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2000 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2000 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2000 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2000 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2000}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2001 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2001 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2001 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2001 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2001 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2001 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2001 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2001 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2001 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2001}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2002 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2002 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2002 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2002 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2002 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2002 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2002 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2002 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2002 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2002}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2003 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2003 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2003 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2003 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2003 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2003 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2003 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2003 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2003 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2003}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2004 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2004 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2004 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2004 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2004 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2004 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2004 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2004 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2004 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2004}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2005 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2005 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2005 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2005 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2005 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2005 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2005 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2005 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2005 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2005}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2006 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2006 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2006 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2006 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2006 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2006 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2006 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2006 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2006 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2006}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2007 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2007 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2007 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2007 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2007 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2007 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2007 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2007 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2007 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2007}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2008 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2008 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2008 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2008 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2008 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2008 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2008 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2008 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2008 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2008}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2009 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2009 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2009 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2009 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2009 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2009 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2009 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2009 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2009 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2009}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2010 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2010 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2010 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2010 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2010 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2010 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2010 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2010 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2010 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2010}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2011 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2011 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2011 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2011 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2011 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2011 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2011 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2011 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2011 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2011}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2012 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2012 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2012 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2012 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2012 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2012 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2012 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2012 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2012 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2012}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        {{IntermediateNodeMapping | nodeClass = qb:Observation | correspondingProperty = aragopediaonto:isDataSetOf | mappings =
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_98_ARAGON_2013 | ontologyProperty = aragopediaonto:consumoGasolina98 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_97_ARAGON_2013 | ontologyProperty = aragopediaonto:consumoGasolina97 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_95_ARAGON_2013 | ontologyProperty = aragopediaonto:consumoGasolina95 }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLINA_TOTAL_ARAGON_2013 | ontologyProperty = aragopediaonto:consumoGasolinaTotal }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOA_ARAGON_2013 | ontologyProperty = aragopediaonto:consumoGasoleoTipoA }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOB_ARAGON_2013 | ontologyProperty = aragopediaonto:consumoGasoleoTipoB }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_TIPOC_ARAGON_2013 | ontologyProperty = aragopediaonto:consumoGasoleoTipoC }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_BIODIESEL_ARAGON_2013 | ontologyProperty = aragopediaonto:consumoGasoleoBiodiesel }}
+        {{PropertyMapping | templateProperty = CONSUMO_GASOLEO_OTROS_GASOLEOS_ARAGON_2013 | ontologyProperty = aragopediaonto:consumoGasoleoOtros }}
+        {{ConstantMapping | ontologyProperty = aragopediaonto:year | value = 2013}}
+        {{ConstantMapping | ontologyProperty = qb:dataSet | value = DataSet/ConsumoCarburantes}}
+        }}
+        }}
+    </text></revision></page>
+
+
+
+</mediawiki>
