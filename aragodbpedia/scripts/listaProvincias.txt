@@ -1,0 +1,3 @@
+http://opendata.aragon.es/recurso/territorio/Provincia/Huesca
+http://opendata.aragon.es/recurso/territorio/Provincia/Zaragoza
+http://opendata.aragon.es/recurso/territorio/Provincia/Teruel
