@@ -1,1 +1,234 @@
-@prefix api:                <http://purl.org/linked-data/api/vocab#> .@prefix vcard: 				<http://www.w3.org/2006/vcard/ns#> .							 @prefix owl:                <http://www.w3.org/2002/07/owl#> .@prefix api:                <http://purl.org/linked-data/api/vocab#> .@prefix dct:				<http://purl.org/dc/terms/> .@prefix rdf:                <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .							 @prefix rdfs:               <http://www.w3.org/2000/01/rdf-schema#> .							 @prefix xsd:                <http://www.w3.org/2001/XMLSchema#> .@prefix geo:				<http://www.w3.org/2003/01/geo/wgs84_pos#> .@prefix geo-oeg:			<http://www.oeg-upm.net/ontologies/geo#>.@prefix geosparql:			<http://www.opengis.net/ont/geosparql#> .                             @prefix skos:				<http://www.w3.org/2004/02/skos/core#>.@prefix fn:					<http://www.w3.org/2005/xpath-functions#>.@prefix elda:               <http://www.epimorphics.com/vocabularies/lda#> .@prefix localidata:		    <http://datos.localidata.com/def/City#> .@prefix localidataC:        <http://datos.localidata.com/def/Catastro#> .@prefix foaf:               <http://xmlns.com/foaf/0.1/> .@prefix dbpedia:            <http://dbpedia.org/ontology/> .@prefix Aragon:				<http://localhost:8080/elda/vocabulary/>.@prefix Codigo:				<http://localhost:8080/elda/vocabulary/>.               @prefix catastro:			<http://localhost:8080/elda/vocabulary/>.@prefix aragopedia:			<http://opendata.aragon.es/def/Aragopedia#>.							#endpoint	http://localhost:8890/sparql/#grafo	<http://opendata.aragon.es/graph/Aragopedia/latest>		#*******************************************************************#<Vistas api="Cubo">#*******************************************************************		#<Vista>#<Titulo>simple</Titulo>#<Descripcion>Esta vista contiene todos los datos del cubo de datos.</Descripcion>#<Estructura>#<code>{#<code>    "name": "Vista de todos los datos del cubo de datos",#<code>    "properties": {#<code>        "_about": {#<code>            "type": "string",#<code>            "description": "URL que identifica la observaciÃ³n del cubo",#<code>            "required": true#<code>        },#<code>        "contenedoresVidrio": {#<code>            "type": "number",#<code>            "description": "NÃºmero de contenedores de vidrio",#<code>            "required": false#<code>        }#<code>        "fecha": {#<code>            "format": "date-time",  #<code>			   "type": "string",#<code>            "description": "fecha que representa el aÃ±o",#<code>            "required": false#<code>        },#<code>        "kilosVidrio": {#<code>            "type": "number",#<code>            "description": "NÃºmero de kilos de vidrio recogidos",#<code>            "required": false#<code>        }#<code>        "tipoEstablecimiento": {#<code>			   "type": "string",#<code>            "description": "URL que representa el tipo de establecimiento",#<code>            "required": false#<code>        },#<code>        "plazas": {#<code>            "type": "number",#<code>            "description": "NÃºmero de plazas",#<code>            "required": false#<code>        },#<code>        "establecimientos": {#<code>            "type": "number",#<code>            "description": "NÃºmero de establecimientos",#<code>            "required": false#<code>        },#<code>        "hectareasTejUrbanoContinuo":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas de tejido urbano continuo",#<code>            "required": false#<code>        },#<code>        "hectareasTejUrbanoDiscontinuo":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas de tejido urbano discontinuo",#<code>            "required": false#<code>        },#<code>        "hectareasZonasIndustrialesComerciales":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas de zonas industriales comerciales",#<code>            "required": false#<code>        },#<code>        "hectareasCarreterasTren":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en carreteras y vÃ­as de tren",#<code>            "required": false#<code>        },#<code>        "hectareasAeropuertos":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en aeropuertos",#<code>            "required": false#<code>        },#<code>        "hectareasZonasMineras":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en zonas mineras",#<code>            "required": false#<code>        },#<code>        "hectareasEscombrerasVertederos":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en escombreras y vertederos",#<code>            "required": false#<code>        },#<code>        "hectareasZonasConstruccion":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en zonas de construcciÃ³n",#<code>            "required": false#<code>        },#<code>        "hectareasZonasVerdesUrbanas":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en zonas verdes urbanas",#<code>            "required": false#<code>        },#<code>        "hectareasInstalacionesDeportivas":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en instalaciones deportivas",#<code>            "required": false#<code>        },#<code>        "hectareasCultivosSecano":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en cultivos de secano",#<code>            "required": false#<code>        },#<code>        "hectareasCultivosRegadio":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en cultivos de regadÃ­o",#<code>            "required": false#<code>        },#<code>        "hectareasArrozales":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en arrozales",#<code>            "required": false#<code>        },#<code>        "hectareasViniedos":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectareas en viÃ±edos",#<code>            "required": false#<code>        },#<code>        "hectareasFrutales":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en cultivos frutales",#<code>            "required": false#<code>        },#<code>        "hectareasOlivares":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en olivares",#<code>            "required": false#<code>        },#<code>        "hectareasMosaicoCultivos":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en mosaico de cultivos",#<code>            "required": false#<code>        },#<code>        "hectareasAgricolaVegNat":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en terreno agrÃ­cola vegetal",#<code>            "required": false#<code>        },#<code>        "hectareasBosquesFrondosas":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en bosques de frondosas",#<code>            "required": false#<code>        },#<code>        "hectareasConiferas":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en bosques de conÃ­feras",#<code>            "required": false#<code>        },#<code>        "hectareasBosquesMixtos":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en bosques mixtos",#<code>            "required": false#<code>        },#<code>        "hectareasPastizalesNaturales":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en pastizales naturales",#<code>            "required": false#<code>        },#<code>        "hectareasMatorralesHumedos":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en matorrales humedos",#<code>            "required": false#<code>        },#<code>        "hectareasMatorralesEsclerof":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en matorrales esclerÃ³filos",#<code>            "required": false#<code>        },#<code>        "hectareasMatorralBoscoso":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en matorrales boscosos",#<code>            "required": false#<code>        },#<code>        "hectareasPlayasDunasArenales":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en playas, dunas y arenales",#<code>            "required": false#<code>        },#<code>        "hectareasRoquedos":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en roquedos",#<code>            "required": false#<code>        },#<code>        "hectareasEscasaVegetacion":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en zonas de escasa vegetaciÃ³n",#<code>            "required": false#<code>        },#<code>        "hectareasZonasQuemadas":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en zonas quemadas",#<code>            "required": false#<code>        },#<code>        "hectareasGlaciarNievePermanente":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en zonas de glaciar o nieve permanente",#<code>            "required": false#<code>        },#<code>        "hectareasHumedales":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en humedales",#<code>            "required": false#<code>        },#<code>        "hectareasTurberas":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en turberas",#<code>            "required": false#<code>        },#<code>        #<code>        "hectareasCursosAgua":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en cursos de agua",#<code>            "required": false#<code>        },#<code>        "hectareasLaminasAgua":{#<code>            "type": "number",#<code>            "description": "NÃºmero de hectÃ¡reas en lÃ¡minas de agua",#<code>            "required": false#<code>        },#<code>        "poblacion":{#<code>            "type": "number",#<code>            "description": "NÃºmero de personas que residen en este lugar",#<code>            "required": false#<code>        },#<code>        "genero":{#<code>            "type": "string",#<code>            "description": "URL que representa el gÃ©nero del lugar",#<code>            "required": false#<code>        },#<code>        "consumoGasolina98":{#<code>            "type": "number",#<code>            "description": "NÃºmero de litros de gasolina 98 que se utilizan en este lugar",#<code>            "required": false#<code>        },#<code>        "consumoGasolina97":{#<code>            "type": "number",#<code>            "description": "NÃºmero de litros de gasolina 97 que se utilizan en este lugar",#<code>            "required": false#<code>        }, #<code>        "consumoGasolina95":{#<code>            "type": "number",#<code>            "description": "NÃºmero de litros de gasolina 95 que se utilizan en este lugar",#<code>            "required": false#<code>        },  #<code>        "consumoGasolinaTotal":{#<code>            "type": "number",#<code>            "description": "NÃºmero de litros de gasolina que se utilizan en este lugar",#<code>            "required": false#<code>        },  #<code>        "consumoGasoleoTipoA":{#<code>            "type": "number",#<code>            "description": "NÃºmero de litros de gasoleo tipo A que se utilizan en este lugar",#<code>            "required": false#<code>        },  #<code>        "consumoGasoleoTipoB":{#<code>            "type": "number",#<code>            "description": "NÃºmero de litros de gasoleo tipo B que se utilizan en este lugar",#<code>            "required": false#<code>        },  #<code>        "consumoGasoleoTipoC" :{#<code>            "type": "number",#<code>            "description": "NÃºmero de litros de gasoleo tipo C que se utilizan en este lugar",#<code>            "required": false#<code>        }, #<code>        "consumoGasoleoBiodiesel":{#<code>            "type": "number",#<code>            "description": "NÃºmero de litros de gasoleo biodiesel que se utilizan en este lugar",#<code>            "required": false#<code>        },  #<code>        "consumoGasoleoOtros":{#<code>            "type": "number",#<code>            "description": "NÃºmero de litros de gasoleo de otros tipo que se utilizan en este lugar",#<code>            "required": false#<code>        }#</Estructura>#<Ejemplo>#<code>{#<code>	"_about": "http://opendata.aragon.es/recurso/estadistica/Observacion/AÃƒÂ­sa__21.0__1__1",#<code>	"contenedoresVidrio": 210,#<code>	"establecimientos": 0,#<code>	"fecha": "2012-01-01T00:00:00+01:00",#<code>	"kilosVidrio": 81560,#<code>	"plazas": 0,#<code>}#</Ejemplo>	#</Vista>Aragon:vistaCubo	a api:Viewer 	; api:name "simple" 		; api:properties         "refArea",		"contenedoresVidrio, kilosVidrio, fecha, establecimientos, plazas, tipoEstablecimiento",		"hectareasTejUrbanoContinuo", 		"hectareasTejUrbanoDiscontinuo", 		"hectareasZonasIndustrialesComerciales", 		"hectareasCarreterasTren", 		"hectareasAeropuertos", 		"hectareasZonasMineras", 		"hectareasEscombrerasVertederos", 		"hectareasZonasConstruccion", 		"hectareasZonasVerdesUrbanas", 		"hectareasInstalacionesDeportivas", 		"hectareasCultivosSecano", 		"hectareasCultivosRegadio", 		"hectareasArrozales", 		"hectareasViniedos", 		"hectareasFrutales", 		"hectareasOlivares", 		"hectareasMosaicoCultivos", 		"hectareasAgricolaVegNat", 		"hectareasBosquesFrondosas", 		"hectareasConiferas", 		"hectareasBosquesMixtos", 		"hectareasPastizalesNaturales", 		"hectareasMatorralesHumedos", 		"hectareasMatorralesEsclerof", 		"hectareasMatorralBoscoso", 		"hectareasPlayasDunasArenales", 		"hectareasRoquedos", 		"hectareasEscasaVegetacion", 		"hectareasZonasQuemadas", 		"hectareasGlaciarNievePermanente", 		"hectareasHumedales", 		"hectareasTurberas", 		"hectareasCursosAgua", 		"hectareasLaminasAgua", 		"poblacion", 		"genero", 		"consumoGasolina98", 		"consumoGasolina97", 		"consumoGasolina95", 		"consumoGasolinaTotal", 		"consumoGasoleoTipoA", 		"consumoGasoleoTipoB", 		"consumoGasoleoTipoC", 		"consumoGasoleoBiodiesel", 		"consumoGasoleoOtros"		.		#</Vistas>#*******************************************************************# 								APIs#*******************************************************************		<http://localhost:8890/sparql/> elda:supportsNestedSelect true.	#Api CuboAragon:Cubo a api:API	; rdfs:label "OpenDataAragon -- Cubos"@es	; api:sparqlEndpoint <http://localhost:8890/sparql/>		; api:defaultViewer Aragon:vistaCubo	; api:defaultFormatter Aragon:HtmlFormatter	; api:formatter Aragon:CsvFormatter	; api:maxPageSize 50	; api:defaultPageSize 10	; api:endpoint 							Aragon:CuboGeneral , Aragon:ObservacionParticular	; api:viewer 									Aragon:vistaCubo					.  #**********************************************************************************************#<Listados id="Cubo">		#**********************************************************************************************	#<Listado>#<Titulo>Listado de observaciones</Titulo>#<URL>http://opendata.aragon.es/recurso/estadistica/Observacion</URL>#<Parametro>#<nombre>No tiene parÃ¡metros.</nombre>#<desc>-</desc>#<ejemplo>-</ejemplo>#</Parametro>#<Llamada>http://opendata.aragon.es/recurso/estadistica/Observacion</Llamada>#<Vista>simple</Vista>#</Listado>Aragon:CuboGeneral a api:ListEndpoint; rdfs:label "CuboGeneral"; api:uriTemplate "Observacion"; api:selector [  	api:where """				{			graph <http://opendata.aragon.es/graph/Aragopedia/latest>			{				?item a <http://purl.org/linked-data/cube#Observation> .			}		}		""" ; 			] ;	.	#<Listado>#<Titulo>Busqueda de observaciones por su identificador</Titulo>#<URL>http://opendata.aragon.es/recurso/estadistica/Observacion/{ParÃ¡metro 1}</URL>#<Parametro>#<nombre>Identificador</nombre>#<desc>Cadena que representa la observacion</desc>#<ejemplo>Abiego__2__1__2</ejemplo>#</Parametro>#<Llamada>http://opendata.aragon.es/recurso/estadistica/Observacion/Abiego__2__1__2</Llamada>#<Vista>simple</Vista>#</Listado>	Aragon:ObservacionParticular a api:ListEndpoint; rdfs:label "ObservacionParticular"; api:uriTemplate "Observacion/{id}"; api:variable [api:name "uri"; api:value "http://opendata.aragon.es/recurso/estadistica/Observacion/{id}"]		; api:selector [  	api:where """				{			graph <http://opendata.aragon.es/graph/Aragopedia/latest>			{				?item a <http://purl.org/linked-data/cube#Observation> .				FILTER (?item = IRI(?uri))			}		}		""" ; 			] ;	.	#</Listados>	#*******************************************************************# This XSLT formatter produces rich HTML from the viewer properties.#*******************************************************************Aragon:HtmlFormatter a api:XsltFormatter	; api:name "html" 	; api:mimeType "text/html; charset=utf-8" 	#; api:stylesheet "lda-assets/xslt/result-osm-trimmed.xsl"	#; api:stylesheet "lda-assets/xslt/localidata_recurso.xsl"		; api:stylesheet "lda-assets/xslt/localidata_aragon.xsl"	#; api:stylesheet "lda-assets/xslt/treeview.xsl"	.	Aragon:CsvFormatter	a api:XsltFormatter ;	api:name "csv" ;	api:mimeType "text/csv; charset=utf-8" ;	api:stylesheet "lda-assets/xslt/csv.xsl"	.		#*******************************************************************# 					Vocabulario#*******************************************************************				rdfs:label api:label "label" .dbpedia:country api:label "pais".aragopedia:menPopulation  api:label "hombres".aragopedia:womenPopulation api:label "mujeres".aragopedia:hasObservation api:label "datoEstadistico".rdf:type api:label "tipo" .aragopedia:refArea api:label "zona geografica".aragopedia:numContenedoresVidrio api:label "contenedoresVidrio". aragopedia:numKGVidrio api:label "kilosVidrio". aragopedia:year api:label "fecha". aragopedia:numEstablecimientos api:label "establecimientos". aragopedia:numPlazas api:label "plazas". aragopedia:tipoEstablecimiento api:label "tipoEstablecimiento". aragopedia:hectareasTejUrbanoContinuo api:label "hectareasTejUrbanoContinuo". aragopedia:hectareasTejUrbanoDiscontinuo  api:label "hectareasTejUrbanoDiscontinuo". aragopedia:hectareasZonasIndustrialesComerciales   api:label "hectareasZonasIndustrialesComerciales". aragopedia:hectareasCarreterasTren   api:label "hectareasCarreterasTren". aragopedia:hectareasAeropuertos   api:label "hectareasAeropuertos". aragopedia:hectareasZonasMineras   api:label "hectareasZonasMineras". aragopedia:hectareasEscombrerasVertederos   api:label "hectareasEscombrerasVertederos". aragopedia:hectareasZonasConstruccion   api:label "hectareasZonasConstruccion". aragopedia:hectareasZonasVerdesUrbanas   api:label "hectareasZonasVerdesUrbanas". aragopedia:hectareasInstalacionesDeportivas   api:label "hectareasInstalacionesDeportivas". aragopedia:hectareasCultivosSecano   api:label "hectareasCultivosSecano". aragopedia:hectareasCultivosRegadio   api:label "hectareasCultivosRegadio". aragopedia:hectareasArrozales   api:label "hectareasArrozales". aragopedia:hectareasViniedos   api:label "hectareasViniedos". aragopedia:hectareasFrutales   api:label "hectareasFrutales". aragopedia:hectareasOlivares   api:label "hectareasOlivares". aragopedia:hectareasMosaicoCultivos   api:label "hectareasMosaicoCultivos". aragopedia:hectareasAgricolaVegNat   api:label "hectareasAgricolaVegNat". aragopedia:hectareasBosquesFrondosas   api:label "hectareasBosquesFrondosas". aragopedia:hectareasConiferas   api:label "hectareasConiferas". aragopedia:hectareasBosquesMixtos   api:label "hectareasBosquesMixtos". aragopedia:hectareasPastizalesNaturales   api:label "hectareasPastizalesNaturales". aragopedia:hectareasMatorralesHumedos   api:label "hectareasMatorralesHumedos". aragopedia:hectareasMatorralesEsclerof   api:label "hectareasMatorralesEsclerof". aragopedia:hectareasMatorralBoscoso   api:label "hectareasMatorralBoscoso". aragopedia:hectareasPlayasDunasArenales   api:label "hectareasPlayasDunasArenales". aragopedia:hectareasRoquedos   api:label "hectareasRoquedos". aragopedia:hectareasEscasaVegetacion   api:label "hectareasEscasaVegetacion". aragopedia:hectareasZonasQuemadas   api:label "hectareasZonasQuemadas". aragopedia:hectareasGlaciarNievePermanente   api:label "hectareasGlaciarNievePermanente". aragopedia:hectareasHumedales   api:label "hectareasHumedales". aragopedia:hectareasTurberas   api:label "hectareasTurberas". aragopedia:hectareasCursosAgua   api:label "hectareasCursosAgua". aragopedia:hectareasLaminasAgua   api:label "hectareasLaminasAgua". aragopedia:population   api:label "poblacion". aragopedia:gender   api:label "genero". aragopedia:consumoGasolina98   api:label "consumoGasolina98". aragopedia:consumoGasolina97   api:label "consumoGasolina97". aragopedia:consumoGasolina95   api:label "consumoGasolina95". aragopedia:consumoGasolinaTotal   api:label "consumoGasolinaTotal". aragopedia:consumoGasoleoTipoA   api:label "consumoGasoleoTipoA". aragopedia:consumoGasoleoTipoB   api:label "consumoGasoleoTipoB". aragopedia:consumoGasoleoTipoC   api:label "consumoGasoleoTipoC". aragopedia:consumoGasoleoBiodiesel   api:label "consumoGasoleoBiodiesel". aragopedia:consumoGasoleoOtros   api:label "consumoGasoleoOtros".
+@prefix api:                <http://purl.org/linked-data/api/vocab#> .
+@prefix vcard: 				<http://www.w3.org/2006/vcard/ns#> .							 
+@prefix owl:                <http://www.w3.org/2002/07/owl#> .
+@prefix api:                <http://purl.org/linked-data/api/vocab#> .
+@prefix dct:				<http://purl.org/dc/terms/> .
+@prefix rdf:                <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .							 
+@prefix rdfs:               <http://www.w3.org/2000/01/rdf-schema#> .							 
+@prefix xsd:                <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo:				<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geo-oeg:			<http://www.oeg-upm.net/ontologies/geo#>.
+@prefix geosparql:			<http://www.opengis.net/ont/geosparql#> .                             
+@prefix skos:				<http://www.w3.org/2004/02/skos/core#>.
+@prefix fn:					<http://www.w3.org/2005/xpath-functions#>.
+@prefix elda:               <http://www.epimorphics.com/vocabularies/lda#> .
+@prefix foaf:               <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia:            <http://dbpedia.org/ontology/> .
+@prefix aragopedia:			<http://opendata.aragon.es/def/Aragopedia#>.
+							
+#endpoint	http://localhost:8890/sparql/
+
+#grafo	<http://opendata.aragon.es/graph/Aragopedia/latest>
+
+		
+#*******************************************************************
+#<Vistas api="Cubo">
+#*******************************************************************		
+
+Aragon:vistaCubo
+	a api:Viewer 
+	; api:name "simple" 	
+	; api:properties 
+        "refArea",
+		"contenedoresVidrio, kilosVidrio, fecha, establecimientos, plazas, tipoEstablecimiento",
+		"hectareasTejUrbanoContinuo", 
+		"hectareasTejUrbanoDiscontinuo", 
+		"hectareasZonasIndustrialesComerciales", 
+		"hectareasCarreterasTren", 
+		"hectareasAeropuertos", 
+		"hectareasZonasMineras", 
+		"hectareasEscombrerasVertederos", 
+		"hectareasZonasConstruccion", 
+		"hectareasZonasVerdesUrbanas", 
+		"hectareasInstalacionesDeportivas", 
+		"hectareasCultivosSecano", 
+		"hectareasCultivosRegadio", 
+		"hectareasArrozales", 
+		"hectareasViniedos", 
+		"hectareasFrutales", 
+		"hectareasOlivares", 
+		"hectareasMosaicoCultivos", 
+		"hectareasAgricolaVegNat", 
+		"hectareasBosquesFrondosas", 
+		"hectareasConiferas", 
+		"hectareasBosquesMixtos", 
+		"hectareasPastizalesNaturales", 
+		"hectareasMatorralesHumedos", 
+		"hectareasMatorralesEsclerof", 
+		"hectareasMatorralBoscoso", 
+		"hectareasPlayasDunasArenales", 
+		"hectareasRoquedos", 
+		"hectareasEscasaVegetacion", 
+		"hectareasZonasQuemadas", 
+		"hectareasGlaciarNievePermanente", 
+		"hectareasHumedales", 
+		"hectareasTurberas", 
+		"hectareasCursosAgua", 
+		"hectareasLaminasAgua", 
+		"poblacion", 
+		"genero", 
+		"consumoGasolina98", 
+		"consumoGasolina97", 
+		"consumoGasolina95", 
+		"consumoGasolinaTotal", 
+		"consumoGasoleoTipoA", 
+		"consumoGasoleoTipoB", 
+		"consumoGasoleoTipoC", 
+		"consumoGasoleoBiodiesel", 
+		"consumoGasoleoOtros"
+		.
+		
+
+
+#*******************************************************************
+# 								APIs
+#*******************************************************************
+		
+
+<http://localhost:8890/sparql/> elda:supportsNestedSelect true.
+	
+#Api Cubo
+
+Aragon:Cubo a api:API
+	; rdfs:label "OpenDataAragon -- Cubos"@es
+	; api:sparqlEndpoint <http://localhost:8890/sparql/>	
+	; api:defaultViewer Aragon:vistaCubo
+	; api:defaultFormatter Aragon:HtmlFormatter
+	; api:formatter Aragon:CsvFormatter
+	; api:maxPageSize 50
+	; api:defaultPageSize 10
+	; api:endpoint 					
+		Aragon:CuboGeneral , Aragon:ObservacionParticular
+	; api:viewer 							
+		Aragon:vistaCubo				
+	.
+
+  
+
+#**********************************************************************************************
+#<Listados id="Cubo">		
+#**********************************************************************************************	
+
+
+Aragon:CuboGeneral a api:ListEndpoint
+; rdfs:label "CuboGeneral"
+; api:uriTemplate "Observacion"
+; api:selector [
+  	api:where """		
+		{
+			graph <http://opendata.aragon.es/graph/Aragopedia/latest>
+			{
+				?item a <http://purl.org/linked-data/cube#Observation> .
+			}
+		}
+		""" ; 	
+		] ;
+	.	
+
+Aragon:ObservacionParticular a api:ListEndpoint
+; rdfs:label "ObservacionParticular"
+; api:uriTemplate "Observacion/{id}"
+; api:variable [api:name "uri"; api:value "http://opendata.aragon.es/recurso/estadistica/Observacion/{id}"]		
+; api:selector [
+  	api:where """		
+		{
+			graph <http://opendata.aragon.es/graph/Aragopedia/latest>
+			{
+				?item a <http://purl.org/linked-data/cube#Observation> .
+				FILTER (?item = IRI(?uri))
+			}
+		}
+		""" ; 	
+		] ;
+	.
+	
+
+
+#*******************************************************************
+# This XSLT formatter produces rich HTML from the viewer properties.
+#*******************************************************************
+
+
+Aragon:HtmlFormatter a api:XsltFormatter
+	; api:name "html" 
+	; api:mimeType "text/html; charset=utf-8" 
+	#; api:stylesheet "lda-assets/xslt/result-osm-trimmed.xsl"
+	#; api:stylesheet "lda-assets/xslt/localidata_recurso.xsl"	
+	; api:stylesheet "lda-assets/xslt/localidata_aragon.xsl"
+	#; api:stylesheet "lda-assets/xslt/treeview.xsl"
+	.
+	
+Aragon:CsvFormatter	a api:XsltFormatter ;
+	api:name "csv" ;
+	api:mimeType "text/csv; charset=utf-8" ;
+	api:stylesheet "lda-assets/xslt/csv.xsl"
+	.		
+
+#*******************************************************************
+# 					Vocabulario
+#*******************************************************************		
+	
+	
+rdfs:label api:label "label" .
+
+dbpedia:country api:label "pais".
+aragopedia:menPopulation  api:label "hombres".
+aragopedia:womenPopulation api:label "mujeres".
+aragopedia:hasObservation api:label "datoEstadistico".
+
+rdf:type api:label "tipo" .
+aragopedia:refArea api:label "zona geografica".
+
+aragopedia:numContenedoresVidrio api:label "contenedoresVidrio". 
+aragopedia:numKGVidrio api:label "kilosVidrio". 
+aragopedia:year api:label "fecha". 
+aragopedia:numEstablecimientos api:label "establecimientos". 
+aragopedia:numPlazas api:label "plazas". 
+aragopedia:tipoEstablecimiento api:label "tipoEstablecimiento". 
+
+
+aragopedia:hectareasTejUrbanoContinuo api:label "hectareasTejUrbanoContinuo". 
+aragopedia:hectareasTejUrbanoDiscontinuo  api:label "hectareasTejUrbanoDiscontinuo". 
+aragopedia:hectareasZonasIndustrialesComerciales   api:label "hectareasZonasIndustrialesComerciales". 
+aragopedia:hectareasCarreterasTren   api:label "hectareasCarreterasTren". 
+aragopedia:hectareasAeropuertos   api:label "hectareasAeropuertos". 
+aragopedia:hectareasZonasMineras   api:label "hectareasZonasMineras". 
+aragopedia:hectareasEscombrerasVertederos   api:label "hectareasEscombrerasVertederos". 
+aragopedia:hectareasZonasConstruccion   api:label "hectareasZonasConstruccion". 
+aragopedia:hectareasZonasVerdesUrbanas   api:label "hectareasZonasVerdesUrbanas". 
+aragopedia:hectareasInstalacionesDeportivas   api:label "hectareasInstalacionesDeportivas". 
+aragopedia:hectareasCultivosSecano   api:label "hectareasCultivosSecano". 
+aragopedia:hectareasCultivosRegadio   api:label "hectareasCultivosRegadio". 
+aragopedia:hectareasArrozales   api:label "hectareasArrozales". 
+aragopedia:hectareasViniedos   api:label "hectareasViniedos". 
+aragopedia:hectareasFrutales   api:label "hectareasFrutales". 
+aragopedia:hectareasOlivares   api:label "hectareasOlivares". 
+aragopedia:hectareasMosaicoCultivos   api:label "hectareasMosaicoCultivos". 
+aragopedia:hectareasAgricolaVegNat   api:label "hectareasAgricolaVegNat". 
+aragopedia:hectareasBosquesFrondosas   api:label "hectareasBosquesFrondosas". 
+aragopedia:hectareasConiferas   api:label "hectareasConiferas". 
+aragopedia:hectareasBosquesMixtos   api:label "hectareasBosquesMixtos". 
+aragopedia:hectareasPastizalesNaturales   api:label "hectareasPastizalesNaturales". 
+aragopedia:hectareasMatorralesHumedos   api:label "hectareasMatorralesHumedos". 
+aragopedia:hectareasMatorralesEsclerof   api:label "hectareasMatorralesEsclerof". 
+aragopedia:hectareasMatorralBoscoso   api:label "hectareasMatorralBoscoso". 
+aragopedia:hectareasPlayasDunasArenales   api:label "hectareasPlayasDunasArenales". 
+aragopedia:hectareasRoquedos   api:label "hectareasRoquedos". 
+aragopedia:hectareasEscasaVegetacion   api:label "hectareasEscasaVegetacion". 
+aragopedia:hectareasZonasQuemadas   api:label "hectareasZonasQuemadas". 
+aragopedia:hectareasGlaciarNievePermanente   api:label "hectareasGlaciarNievePermanente". 
+aragopedia:hectareasHumedales   api:label "hectareasHumedales". 
+aragopedia:hectareasTurberas   api:label "hectareasTurberas". 
+aragopedia:hectareasCursosAgua   api:label "hectareasCursosAgua". 
+aragopedia:hectareasLaminasAgua   api:label "hectareasLaminasAgua". 
+aragopedia:population   api:label "poblacion". 
+aragopedia:gender   api:label "genero". 
+aragopedia:consumoGasolina98   api:label "consumoGasolina98". 
+aragopedia:consumoGasolina97   api:label "consumoGasolina97". 
+aragopedia:consumoGasolina95   api:label "consumoGasolina95". 
+aragopedia:consumoGasolinaTotal   api:label "consumoGasolinaTotal". 
+aragopedia:consumoGasoleoTipoA   api:label "consumoGasoleoTipoA". 
+aragopedia:consumoGasoleoTipoB   api:label "consumoGasoleoTipoB". 
+aragopedia:consumoGasoleoTipoC   api:label "consumoGasoleoTipoC". 
+aragopedia:consumoGasoleoBiodiesel   api:label "consumoGasoleoBiodiesel". 
+aragopedia:consumoGasoleoOtros   api:label "consumoGasoleoOtros".
